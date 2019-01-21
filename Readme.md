@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Александр Загораев](https://up.htmlacademy.ru/htmlcss/24/user/923787).
-* Наставник: `Неизвестно`.
+* Наставник: `Владислав Балабанович`.(https://htmlacademy.ru/profile/balabanovich)
 
 ---
 
