@@ -99,19 +99,26 @@
       </section>
     </main>
     <section class="maps">
-      <form class="serch-form" action="#" method="post">
+      <form class="search-form" action="#" method="post">
         <p class="search-item">
-          <input type="text" name="date-of-arrival" placeholder="01 января 2019">
+          <label for="date-of-arrival">Дата заезда</label>
+          <input id="date-of-arrival" type="text" name="date" placeholder="01 января 2019">
+          <span>Календарь</span>
         </p>
         <p class="search-item">
-          <input type="text" name="date-of-departure" placeholder="01 января 2019">
+          <label for="date-of-departure">Дата выезда</label>
+          <input id="date-of-departure" type="text" name="date" placeholder="01 января 2019">
         </p>
         <p class="search-item">
-          <input type="text" name="people">
+          <label for="people">Взрослые:</label>
+          <input id="people" type="text" name="people">
         </p>
+
         <p class="search-item">
-          <input type="text" name="people-childern">
+          <label for="people-childern">Дети:</label>
+          <input id="people-childern" type="text" name="childern">
         </p>
+        <button type="submit" name="search">Найти</button>
       </form>
       <img src="img/maps.png" alt="карта">
     </section>
