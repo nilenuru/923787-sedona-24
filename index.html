@@ -98,30 +98,29 @@
         <a class="search-button" href="form">Поиск гостиницы в седоне</a>
       </section>
     </main>
-    <section class="maps">
+    <section class="modal-search">
+      <h2 class="visually-hidden">Форма заказа отеля</h2>
       <form class="search-form" action="#" method="post">
         <p class="search-item">
           <label for="date-of-arrival">Дата заезда</label>
           <input id="date-of-arrival" type="text" name="date" placeholder="01 января 2019">
         </p>
-        <input type="date" class="icon-calendar">
+        <button class="icon-calendar">Календарь</button>
         <p class="search-item">
           <label for="date-of-departure">Дата выезда</label>
           <input id="date-of-departure" type="text" name="date" placeholder="01 января 2019">
+          <button class="icon-calendar">Календарь</button>
         </p>
-        <span class="icon-calendar">Календарь</span>
         <p class="search-item">
           <label for="people">Взрослые:</label>
           <input id="people" type="text" name="people">
-        </p>
-        <p class="search-item">
           <label for="people-childern">Дети:</label>
           <input id="people-childern" type="text" name="childern">
         </p>
-        <button name="button">+</button>
-        <button type="button" name="button">-</button>
         <button type="submit" name="search">Найти</button>
       </form>
+    </section>
+    <section class="maps">
       <img src="img/maps.png" alt="карта">
     </section>
 
