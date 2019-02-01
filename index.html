@@ -109,13 +109,16 @@
         <p class="search-item">
           <label for="date-of-departure">Дата выезда</label>
           <input id="date-of-departure" type="text" name="date" placeholder="24 апреля 2017">
-          <button class="icon-calendar">Календарь</button>
-        </p>
+          <label for="date-of-departure" class="icon-calendar">Календарь</label>
         <p class="search-item">
           <label for="people">Взрослые:</label>
-          <input id="people" type="text" name="people">
+          <button class="button-minus" name="minus" aria-label="Уменьшить количество взрослых">-</button>
+          <input id="people" type="number" name="people">
+          <button class="button-plus" name="minus" aria-label="Увеличить количество взрослых">+</button>
           <label for="people-childern">Дети:</label>
-          <input id="people-childern" type="text" name="childern">
+          <button class="button-minus" name="minus" aria-label="Уменьшить количество детей">-</button>
+          <input id="people-childern" type="number" name="childern">
+          <button class="button-plus" name="minus" aria-label="Увеличить количество детей">+</button>
         </p>
         <button class="button" type="submit" name="search">Найти</button>
       </form>
