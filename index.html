@@ -111,23 +111,27 @@
         <p class="search-item">
           <div class="date-of-departure">
             <label for="date-of-departure">Дата выезда</label>
-            <input id="date-of-departure" type="text" name="date" placeholder="24 апреля 2017">
+            <input id="date-of-departure" type="text" name="date" placeholder="4 июля 2017">
             <button type="button" class="button-calendar" name="calendar" aria-label="Выбор даты заезда">Кадендарь</button>
           </div>
         </p>
         <p class="search-item">
-          <div class="">
-            <label for="people">Взрослые:</label>
+          <div class="adult">
             <div class="people">
-              <button type="button" class="button-minus" name="minus" aria-label="Уменьшить количество взрослых">-</button>
-              <input id="people" type="number" name="people" placeholder="2">
-              <button type="button"  class="button-plus" name="minus" aria-label="Увеличить количество взрослых">+</button>
+              <label for="adult">Взрослые:</label>
+              <div class="adult-item">
+                <button type="button" class="button-minus" name="minus" aria-label="Уменьшить количество взрослых">-</button>
+                <input id="adult" type="number" name="adult" placeholder="2">
+                <button type="button"  class="button-plus" name="minus" aria-label="Увеличить количество взрослых">+</button>
+              </div>
             </div>
-          <label for="people-childern">Дети:</label>
           <div class="childern">
-            <button type="button" class="button-minus" name="minus" aria-label="Уменьшить количество детей">-</button>
-            <input id="people-childern" type="number" name="childern" placeholder="0">
-            <button type="button" class="button-plus" name="minus" aria-label="Увеличить количество детей">+</button>
+            <label for="people-childern">Дети:</label>
+            <div class="childern-item">
+              <button type="button" class="button-minus" name="minus" aria-label="Уменьшить количество детей">-</button>
+              <input id="people-childern" type="number" name="childern" placeholder="0">
+              <button type="button" class="button-plus" name="minus" aria-label="Увеличить количество детей">+</button>
+            </div>
           </div>
         </div>
         </p>
