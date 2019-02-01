@@ -104,7 +104,7 @@
         <p class="search-item">
           <label for="date-of-arrival">Дата заезда</label>
           <input id="date-of-arrival" type="text" name="date" placeholder="24 апреля 2017">
-          <label for="date-of-arrival" class="icon-calendar">Календарь</label>
+          <input type="date" id="date-of-arrival" class="icon-calendar">Календарь</label>
         </p>
         <p class="search-item">
           <label for="date-of-departure">Дата выезда</label>
@@ -112,13 +112,13 @@
           <label for="date-of-departure" class="icon-calendar">Календарь</label>
         <p class="search-item">
           <label for="people">Взрослые:</label>
-          <button class="button-minus" name="minus" aria-label="Уменьшить количество взрослых">-</button>
-          <input id="people" type="number" name="people">
-          <button class="button-plus" name="minus" aria-label="Увеличить количество взрослых">+</button>
+          <button type="button" class="button-minus" name="minus" aria-label="Уменьшить количество взрослых">-</button>
+          <input id="people" type="number" name="people" placeholder="2">
+          <button type="button"  class="button-plus" name="minus" aria-label="Увеличить количество взрослых">+</button>
           <label for="people-childern">Дети:</label>
-          <button class="button-minus" name="minus" aria-label="Уменьшить количество детей">-</button>
-          <input id="people-childern" type="number" name="childern">
-          <button class="button-plus" name="minus" aria-label="Увеличить количество детей">+</button>
+          <button type="button" class="button-minus" name="minus" aria-label="Уменьшить количество детей">-</button>
+          <input id="people-childern" type="number" name="childern" placeholder="0">
+          <button type="button" class="button-plus" name="minus" aria-label="Увеличить количество детей">+</button>
         </p>
         <button class="button" type="submit" name="search">Найти</button>
       </form>
