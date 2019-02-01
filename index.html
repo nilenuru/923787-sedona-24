@@ -100,24 +100,36 @@
     </main>
     <section class="modal-search">
       <h2 class="visually-hidden">Форма заказа отеля</h2>
-      <form class="search-form" action=""https://echo.htmlacademy.ru"" method="get">
+      <form class="search-form" action=""https://echo.htmlacademy.ru"" method="post">
         <p class="search-item">
-          <label for="date-of-arrival">Дата заезда</label>
-          <input id="date-of-arrival" type="text" name="date" placeholder="24 апреля 2017">
-          <input type="date" id="date-of-arrival" class="icon-calendar">Календарь</input>
+          <div class="date-of-arrival">
+            <label for="date-of-arrival">Дата заезда</label>
+            <input id="date-of-arrival" type="text" name="date" placeholder="24 апреля 2017">
+            <button type="button" class="button-calendar" name="calendar" aria-label="Выбор даты выезда">Кадендарь</button>
+          </div>
         </p>
         <p class="search-item">
-          <label for="date-of-departure">Дата выезда</label>
-          <input id="date-of-departure" type="text" name="date" placeholder="24 апреля 2017">
+          <div class="date-of-departure">
+            <label for="date-of-departure">Дата выезда</label>
+            <input id="date-of-departure" type="text" name="date" placeholder="24 апреля 2017">
+            <button type="button" class="button-calendar" name="calendar" aria-label="Выбор даты заезда">Кадендарь</button>
+          </div>
+        </p>
         <p class="search-item">
-          <label for="people">Взрослые:</label>
-          <button type="button" class="button-minus" name="minus" aria-label="Уменьшить количество взрослых">-</button>
-          <input id="people" type="text" name="people" placeholder="2">
-          <button type="button" class="button-plus" name="minus" aria-label="Увеличить количество взрослых">+</button>
+          <div class="">
+            <label for="people">Взрослые:</label>
+            <div class="people">
+              <button type="button" class="button-minus" name="minus" aria-label="Уменьшить количество взрослых">-</button>
+              <input id="people" type="number" name="people" placeholder="2">
+              <button type="button"  class="button-plus" name="minus" aria-label="Увеличить количество взрослых">+</button>
+            </div>
           <label for="people-childern">Дети:</label>
-          <button type="button" class="button-minus" name="minus" aria-label="Уменьшить количество детей">-</button>
-          <input id="people-childern" type="text" name="childern" placeholder="0">
-          <button type="button" class="button-plus" name="minus" aria-label="Увеличить количество детей">+</button>
+          <div class="childern">
+            <button type="button" class="button-minus" name="minus" aria-label="Уменьшить количество детей">-</button>
+            <input id="people-childern" type="number" name="childern" placeholder="0">
+            <button type="button" class="button-plus" name="minus" aria-label="Увеличить количество детей">+</button>
+          </div>
+        </div>
         </p>
         <button class="button" type="submit" name="search">Найти</button>
       </form>
