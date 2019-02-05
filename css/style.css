@@ -75,15 +75,29 @@ a {
 
 .reason-info {
   width: 400px;
-  height: 256px;
   text-align: center;
-  color: #ffffff;  
+  color: #ffffff;
+  padding-top: 46px;
+  padding-right: 60px;
+  padding-left: 60px;
 }
 .reason-info h3 {
 font-size: 21px;
 line-height: 21px;
 }
 
+.reason-item {
+  width: 400px;
+  text-align: center;
+  background-color: #eeeeee;
+  padding-top: 50px;
+  padding-bottom: 63px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.reason-item p,
+.reason-item span,
 .reason-info p,
 .reason-info span{
   font-size: 14px;
@@ -95,7 +109,7 @@ line-height: 21px;
 	text-align: center;
   color: #000000;
   width: 400px;
-  height: 256px;
+
   background-color: #ffffff; 
 }
 
@@ -113,7 +127,6 @@ line-height: 21px;
 /* Блок поиска*/
 .search-block a:hover,
 .search-block a:focus{
-
 }
 
 .search-block {
