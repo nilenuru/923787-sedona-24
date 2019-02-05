@@ -19,7 +19,8 @@ body {
 a {
   text-decoration: none;
 }
-.site-navigation {
+.site-navigation,
+.main-footer ul {
   list-style: none;
 }
 .main-navigation {
@@ -63,4 +64,17 @@ a {
   color: #ffffff;
   background-color: #81b3d2;
   float: left;
+}
+.advantages-item{
+	text-align: center;
+}
+.search-block {
+	font-size: 21px;
+  	line-height: 26px;
+	text-align: center;
+}
+.search-block p{
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
 }
