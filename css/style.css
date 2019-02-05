@@ -66,15 +66,32 @@ a {
   float: left;
 }
 .advantages-item{
-	text-align: center;
+	text-align: left;
 }
 .search-block {
 	font-size: 21px;
   	line-height: 26px;
 	text-align: center;
 }
-.search-block p{
+.search-block p {
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: 400;
+}
+.main-footer {
+	background-color: #ffffff;
+	text-align: center;
+}
+.main-footer a {
+	color:#000000;
+}
+.main-footer a:hover,
+.main-footer a:focus {
+	background-color: #81b3d2
+}
+.main-footer p {
+	text-align: left;
+}
+.main-footer .generated {
+	text-align: right;
 }
