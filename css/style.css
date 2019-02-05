@@ -43,9 +43,8 @@ a {
 .main-footer a:hover,
 .main-footer a:focus,
 .search-block a:hover,
-.search-block a:focus
-{
-  background-color: #81b3d2;
+.search-block a:focus {
+ 	background-color: #81b3d2;
 }
 .preview {
   text-align: center;
