@@ -1,7 +1,7 @@
 body {
   margin: 0;
 
-  font-family: "PT Sans","Arial",sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: normal;
@@ -42,9 +42,7 @@ a {
 .site-navigation a:hover,
 .site-navigation a:focus,
 .main-footer a:hover,
-.main-footer a:focus,
-.search-block a:hover,
-.search-block a:focus {
+.main-footer a:focus {
  	color: #81b3d2;
 }
 
@@ -54,10 +52,12 @@ a {
   padding-bottom: 107px;
   background-color: #ffffff;
 }
+
 .preview h2 {
   font-size: 21px;
   line-height: 26px;
 }
+
 .preview p {
   font-size: 14px;
   line-height: 21px;
@@ -72,63 +72,100 @@ a {
 .reason-block img {
   display: block;
 }
+
 .reason-info {
-   width: 400px;
+  width: 400px;
   height: 256px;
   text-align: center;
-  color: #ffffff;
-
-  
+  color: #ffffff;  
 }
+.reason-info h3 {
+font-size: 21px;
+line-height: 21px;
+}
+
+.reason-info p,
+.reason-info span{
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
 .advantages-item {
-	text-align: left;
+	text-align: center;
+  color: #000000;
+  width: 400px;
+  height: 256px;
+  background-color: #ffffff; 
+}
+
+.advantages-item h3 {
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.advantages-item span,
+.advantages-item p  {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
 }
 /* Блок поиска*/
+.search-block a:hover,
+.search-block a:focus{
+
+}
+
 .search-block {
 	font-size: 21px;
 	line-height: 26px;
 	text-align: center;
+  padding-top: ;
 }
+
 .search-block p {
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: 400;
 }
+
 .search-block a {
 	color: #000000; 
 }
-
 /* Блок формы */
 .modal-search {
 	width: 568px;
 	height: 395px;
 	box-shadow: 0px 7px 15px 0 rgba(0,1,1,0.15)
 }
+
 .date-of-departure input[type="text"],
 .date-of-arrival input[type="text"] {
 	width: 346px;
 	height: 38px;
 	background-color: #f2f2f2; 
 }
+
 .adult-item input[type="number"],
 .childern-item input[type="number"] {
 	width: 38px;
 	height: 38px;
 	background-color: #f2f2f2;
 }
-
-
 /* Блок подвала*/
 .main-footer {
 	background-color: #ffffff;
 	text-align: center;
 }
+
 .main-footer a {
 	color:#000000;
 }
+
 .main-footer-hashtag {
 	text-align: left;
 }
+
 .main-footer .generated {
 	text-align: right;
 }
