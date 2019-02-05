@@ -1,5 +1,5 @@
 body {
-  margin: 0 auto;
+  margin: 0;
 
   font-family: "PT Sans","Arial",sans-serif;
   font-size: 14px;
@@ -23,6 +23,7 @@ a {
 .main-footer ul {
   list-style: none;
 }
+
 .main-navigation {
   font-size: 14px;
   line-height: 26px;
@@ -30,26 +31,27 @@ a {
 
   background-color: #ffffff;
 }
+
 .intro {
   background: url("../img/back-photo.png") no-repeat;
-  width: 1200px;
-  height: 800px;
+  text-align: center;
+  padding-top: 132px;
+  padding-bottom: 288px;
 }
-.site-navigation a{
-  color: #000000;
-}
+
 .site-navigation a:hover,
 .site-navigation a:focus,
 .main-footer a:hover,
 .main-footer a:focus,
 .search-block a:hover,
 .search-block a:focus {
- 	background-color: #81b3d2;
+ 	color: #81b3d2;
 }
+
 .preview {
   text-align: center;
-  width: 1200px;
-  height: 216px;
+  padding-top: 61px;
+  padding-bottom: 107px;
   background-color: #ffffff;
 }
 .preview h2 {
@@ -62,13 +64,21 @@ a {
   font-weight: 400;
 }
 
+.reason-block {
+  display: flex;
+  background-color: #81b3d2;
+}
+
+.reason-block img {
+  display: block;
+}
 .reason-info {
-  width: 400px;
+   width: 400px;
   height: 256px;
   text-align: center;
   color: #ffffff;
-  background-color: #81b3d2;
-  float: left;
+
+  
 }
 .advantages-item {
 	text-align: left;
@@ -76,7 +86,7 @@ a {
 /* Блок поиска*/
 .search-block {
 	font-size: 21px;
-  	line-height: 26px;
+	line-height: 26px;
 	text-align: center;
 }
 .search-block p {
@@ -115,9 +125,6 @@ a {
 }
 .main-footer a {
 	color:#000000;
-}
-.{
-	background-color: #81b3d2
 }
 .main-footer-hashtag {
 	text-align: left;
