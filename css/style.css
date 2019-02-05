@@ -78,6 +78,14 @@ a {
 	line-height: 21px;
 	font-weight: 400;
 }
+.modal-search {
+	width: 568px;
+	height: 395px;
+	box-shadow: 0px 7px 15px 0 rgba(0,1,1,0.15)
+}
+.button .button-send {
+	background-color: #81b3d2;
+}
 .main-footer {
 	background-color: #ffffff;
 	text-align: center;
@@ -89,7 +97,7 @@ a {
 .main-footer a:focus {
 	background-color: #81b3d2
 }
-.main-footer p {
+.main-footer-hashtag {
 	text-align: left;
 }
 .main-footer .generated {
