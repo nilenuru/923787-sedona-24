@@ -245,8 +245,12 @@ line-height: 21px;
   font-weight: 400;
   line-height: 18px;
 }
+
 .sorting ul {
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
+}
+.arrow-up {
+	background-color: #81b3d2;
 }
