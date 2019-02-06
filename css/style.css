@@ -20,16 +20,22 @@ a {
   text-decoration: none;
 }
 .site-navigation,
-.main-footer ul {
+.main-footer ul,
+.sorting ul,
+.residence ul {
   list-style: none;
 }
 
 .main-navigation {
   font-size: 14px;
   line-height: 26px;
-  color: #000000;
 
   background-color: #ffffff;
+}
+
+.main-navigation a,
+.residence a {
+  color: #000000;
 }
 
 .intro {
@@ -207,3 +213,20 @@ line-height: 21px;
 .main-footer .generated {
 	text-align: right;
 }
+
+.filter-sedona {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+
+  background: url("../img/filter-background.png") no-repeat;
+}
+
+.filter-sedona h2 {
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+}
+
+ 
