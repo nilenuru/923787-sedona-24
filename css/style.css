@@ -34,7 +34,8 @@ a {
 }
 
 .main-navigation a,
-.residence a {
+.residence a,
+.sorting a {
   color: #000000;
 }
 
@@ -48,7 +49,9 @@ a {
 .site-navigation a:hover,
 .site-navigation a:focus,
 .main-footer a:hover,
-.main-footer a:focus {
+.main-footer a:focus,
+.sorting a:hover,
+.sorting a:focus {
  	color: #81b3d2;
 }
 
@@ -166,11 +169,11 @@ line-height: 21px;
 
 /* Блок формы */
 .modal-search {
-	font-size: 14px;
+  font-size: 14px;
   line-height: 26px;
   width: 568px;
-	height: 395px;
-	box-shadow: 0px 7px 15px 0 rgba(0,1,1,0.15);
+  height: 395px;
+  box-shadow: 0px 7px 15px 0 rgba(0,1,1,0.15);
   padding-right: 316px;
   padding-left: 316px;
 }
@@ -229,9 +232,21 @@ line-height: 21px;
 }
 
 .sorting {
-	text-align: left;
   background-color: #ffffff;
   padding-top: 31px;
-  padding-bottom: 487px;
+}
+.sorting h2 {
+	font-size: 21px;
+	line-height: 26px;
 }
  
+.sorting span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.sorting ul {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
