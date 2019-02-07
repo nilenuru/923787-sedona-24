@@ -137,7 +137,10 @@ line-height: 21px;
 }
 /* Блок поиска*/
 .search-block a:hover,
-.search-block a:focus{
+.search-block a:focus,
+.residence-buttons a:last-child:hover,
+.residence-buttons a:last-child:focus {
+  background-color: #604e43;
 }
 
 .search-block {
