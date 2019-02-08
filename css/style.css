@@ -230,13 +230,16 @@ a {
 
 /* Блок формы */
 .modal-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 14px;
   line-height: 26px;
   width: 568px;
   height: 395px;
   box-shadow: 0px 7px 15px 0 rgba(0,1,1,0.15);
-  padding-right: 316px;
-  padding-left: 316px;
+  margin-right: 316px;
+  margin-left: 316px;
 }
 
 .modal-search .button {
