@@ -86,8 +86,7 @@ a {
   margin-bottom: 40px;
 }
 
-.reason-block-state,
-.reason-block-bridge {
+.reason-block {
   display: flex;
   flex-direction: row;  
   text-align: center;
@@ -95,38 +94,33 @@ a {
   background-color: #81b3d2;
 }
 
-.reason-info-state,
-.reason-info-bridge {
+.reason-info {
   width: 400px;
   text-align: center;
   color: #ffffff;
 
 }
 
-.reason-block-state img,
-.reason-block-bridge img {
+.reason-block img {
   width: 800px;
   display: block;
 }
 
-
-.reason-info-state h3 {
+.reason-info h3 {
   text-align: center;
   font-size: 21px;
   line-height: 21px;
   margin-top: 50px;
-  padding-left: 140px;
-  padding-right: 140px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
-.reason-info-state p {
+.reason-info p {
   font-size: 14px;
   line-height: 21px;
   padding-left: 45px;
   padding-right: 45px;
-  margin-top: 30px;
 }
-
 
 .reason-item {
   width: 400px;
