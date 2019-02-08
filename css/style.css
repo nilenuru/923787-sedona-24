@@ -184,16 +184,32 @@ a {
   padding-top: 57px;
   padding-bottom: 53px;
 }
+.search-block h2{
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 40px;
+}
 
 .search-block p {
-	font-size: 14px;
+  font-size: 14px;
   line-height: 21px;
 	font-weight: 400;
+  padding-bottom: 55px;
+  margin-bottom: 55px; 
 }
 
 .search-block a {
+  width: 575px;
+  height: 85px;
+  font-size: 21px;
+  line-height: 26px;
   text-align: center;
 	color: #ffffff;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 145px;
+  padding-right: 145px;
+  border: 1px dashed #000000;
   background-color: #766357;
 }
 .search-block a:hover,
@@ -201,10 +217,6 @@ a {
   background-color: #604e43;
 }
 
-.search-button {
-  font-size
-  background-color: #766357;
-}
 
 /* Блок формы */
 .modal-search {
