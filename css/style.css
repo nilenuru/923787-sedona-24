@@ -178,15 +178,17 @@ a {
 }
 
 .search-block {
+  display: flex;
+  flex-direction: column;
 	font-size: 21px;
 	line-height: 26px;
 	text-align: center;
-  padding-top: 57px;
-  padding-bottom: 53px;
+
 }
 .search-block h2{
   font-size: 30px;
   line-height: 36px;
+  margin-top: 60px;
   margin-bottom: 40px;
 }
 
@@ -194,22 +196,24 @@ a {
   font-size: 14px;
   line-height: 21px;
 	font-weight: 400;
-  padding-bottom: 55px;
-  margin-bottom: 55px; 
+  margin-bottom: 52px;
+ 
 }
 
 .search-block a {
-  width: 575px;
-  height: 85px;
   font-size: 21px;
   line-height: 26px;
   text-align: center;
 	color: #ffffff;
+  margin-left: 315px;
+  margin-right: 315px;
   padding-top: 35px;
   padding-bottom: 35px;
-  padding-left: 145px;
-  padding-right: 145px;
+
   border: 1px dashed #000000;
+  background-color: #f2f2f2;
+  
+
   background-color: #766357;
 }
 .search-block a:hover,
