@@ -28,19 +28,13 @@ a {
 
 .main-navigation {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   font-size: 14px;
   line-height: 26px;
-
   background-color: #ffffff;
 }
 
-.site-navigation {
-  margin: 0;
-  padding: 0;
-
-  list-style: none;
+.site-navigation li{
+  width: 56px;
 }
 .main-navigation a,
 .residence a,
@@ -74,15 +68,13 @@ a {
 
 .preview {
   text-align: center;
-  padding-top: 61px;
-  padding-bottom: 40px;
+  padding-top: 60px;
   background-color: #ffffff;
 }
 
 .preview h2 {
   font-size: 21px;
   line-height: 26px;
-  margin-bottom: 40px;
   margin-right: 380px;
   margin-left: 380px;
 }
@@ -94,7 +86,8 @@ a {
   margin-bottom: 40px;
 }
 
-.reason-block {
+.reason-block-state,
+.reason-block-bridge {
   display: flex;
   flex-direction: row;  
   text-align: center;
@@ -102,30 +95,38 @@ a {
   background-color: #81b3d2;
 }
 
-.reason-block img {
-  display: block;
-}
-
-.reason-info {
+.reason-info-state,
+.reason-info-bridge {
   width: 400px;
   text-align: center;
   color: #ffffff;
-}
-.reason-info h3 {
-font-size: 21px;
-line-height: 21px;
-padding-top: 50px;
-padding-left: 50px;
-padding-right: 50px;
+
 }
 
-.reason-info p {
-font-size: 14px;
-line-height: 21px;
-padding-left: 45px;
-padding-right: 45px;
-padding-bottom: 30px;
+.reason-block-state img,
+.reason-block-bridge img {
+  width: 800px;
+  display: block;
 }
+
+
+.reason-info-state h3 {
+  text-align: center;
+  font-size: 21px;
+  line-height: 21px;
+  margin-top: 50px;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.reason-info-state p {
+  font-size: 14px;
+  line-height: 21px;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin-top: 30px;
+}
+
 
 .reason-item {
   width: 400px;
