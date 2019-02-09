@@ -328,6 +328,10 @@ a {
 }
 
 .filter-sedona {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
@@ -339,6 +343,26 @@ a {
 .filter-sedona h2 {
   font-size: 16px;
   line-height: 21px;
+  padding-left: 75px;
+  padding-top: 30px;
+  padding-bottom: 35px;
+
+}
+
+.filer-infrastrukrura h2 {
+  width: 240px;
+  padding-left: 75px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.checkbox-item {
+  padding-bottom: 35px;
+  padding-left: 75px;
+}
+
+.filter-residence {
+  width: 390px;
 }
 
 .sorting {
@@ -376,18 +400,11 @@ a {
   font-weight: 400;
 }
 
-.residence-item {
-  display: flex;
-  flex-direction: column;
-  
-}
-
 .residence-details h2 {
   color: #000000;
   font-size: 21px;
   line-height: 26px;
 }
-
 
 .rating {
   text-align: center;
