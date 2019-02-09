@@ -23,6 +23,18 @@ body {
   margin: -1px;
   …}
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.content-box-component {
+  box-sizing: content-box;
+}
+
 a {
   text-decoration: none;
 }
@@ -129,11 +141,20 @@ a {
   padding-right: 120px;
 }
 
+.reason-info h3 {
+  text-align: center;
+  font-size: 21px;
+  line-height: 21px;
+  margin-top: 50px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
 .reason-info p {
   font-size: 14px;
   line-height: 21px;
-  padding-left: 45px;
-  padding-right: 45px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .reason-item {
@@ -142,8 +163,16 @@ a {
   background-color: #eeeeee;
   padding-top: 50px;
   padding-bottom: 63px;
-  padding-left: 70px;
-  padding-right: 70px;
+ }
+
+.reason-item h3{
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.reason-item p {
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 .reason-item p,
@@ -165,9 +194,12 @@ a {
   }
 
 .advantages-item {
+  text-align: center;
   width: 400px;
   padding-top: 160px;
   padding-bottom: 85px;
+  padding-right: 55px;
+  padding-left: 55px;
 }
 
 .advantages-item h3 {
