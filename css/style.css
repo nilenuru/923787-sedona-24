@@ -40,9 +40,16 @@ a {
   background-color: #ffffff;
 }
 
-.site-navigation li{
-  width: 56px;
+.main-navigation .site-navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
+
+.site-navigation li {
+  width: 240px;
+}
+
 .main-navigation a,
 .residence a,
 .sorting a {
@@ -50,7 +57,7 @@ a {
 }
 
 .main-header-logo {
-  order: 3;
+  order: 0;
   width: 140px;
   height: 71px;
 }
@@ -155,14 +162,12 @@ a {
 	text-align: center;
   color: #000000;
   background-color: #ffffff;
-  
-}
+  }
 
 .advantages-item {
   width: 400px;
   padding-top: 160px;
   padding-bottom: 85px;
-
 }
 
 .advantages-item h3 {
@@ -247,19 +252,15 @@ a {
   line-height: 26px;
   color: #ffffff;
 }
-.date-of-arrival input {
-margin-top: 55px;
+.date-of-arrival {
+  margin-top: 55px;
 }
 .date-of-departure input[type="text"],
 .date-of-arrival input[type="text"] {
 	width: 346px;
 	height: 38px;
 	background-color: #f2f2f2;
-  margin-top: px;
-  margin-right: px;
-  margin-left: px;
-
-}
+ }
 
 .adult-item input[type="number"],
 .childern-item input[type="number"] {
@@ -269,22 +270,30 @@ margin-top: 55px;
 }
 /* Блок подвала*/
 .main-footer {
-	background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
 	text-align: center;
 }
 
 .main-footer a {
 	color:#000000;
+  width: 250px;
+  border: 1px solid black;
 }
 
 .main-footer-hashtag {
 	font-size: 21px;
   line-height: 26px;
-  text-align: left;
+  text-align: center;
+  width: 250px;
 }
-
+ 
 .main-footer .generated {
-	text-align: right;
+	text-align: center;
+  width: 250px;
 }
 
 .filter-sedona {
