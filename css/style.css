@@ -8,7 +8,6 @@ html {
 
 body {
   margin: 0;
-
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -38,7 +37,6 @@ a {
 .content-box-component {
   box-sizing: content-box;
 }
-
 .site-navigation,
 .main-footer ul,
 .sorting ul,
@@ -115,7 +113,7 @@ a {
 
 .reason-block {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
   text-align: center;
 
   background-color: #81b3d2;
@@ -142,15 +140,6 @@ a {
   padding-right: 120px;
 }
 
-.reason-info h3 {
-  text-align: center;
-  font-size: 21px;
-  line-height: 21px;
-  margin-top: 50px;
-  padding-left: 120px;
-  padding-right: 120px;
-}
-
 .reason-info p {
   font-size: 14px;
   line-height: 21px;
@@ -166,14 +155,16 @@ a {
   padding-bottom: 63px;
  }
 
-.reason-item h3{
+.reason-item h3 {
+  font-size: 21px;
+  line-height: 26px;
   padding-left: 140px;
   padding-right: 140px;
 }
 
 .reason-item p {
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 70px;
+  padding-right: 60px;
 }
 
 .reason-item p,
@@ -188,7 +179,7 @@ a {
 
 .advantages-block {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
 	text-align: center;
   color: #000000;
   background-color: #ffffff;
@@ -223,6 +214,7 @@ a {
 }
 
 .search-block {
+  position: relative;
   display: flex;
   flex-direction: column;
 	font-size: 21px;
@@ -253,32 +245,28 @@ a {
   margin-right: 315px;
   padding-top: 35px;
   padding-bottom: 35px;
-
   border: 1px dashed #000000;
-  background-color: #f2f2f2;
-  
-
   background-color: #766357;
 }
+
 .search-block a:hover,
 .search-block a:active {
   background-color: #604e43;
 }
-/* Блок формы */
+
 .modal-search {
   position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  top: 100%;
+  left: 50%;
+  margin-left: -284px;
   font-size: 14px;
   line-height: 26px;
   width: 568px;
   height: 395px;
   box-shadow: 0px 7px 15px 0 rgba(0,1,1,0.15);
-  margin-right: 316px;
-  margin-left: 316px;
   background-color: #ffffff;
 }
+
 
 .modal-search .button {
   font-size: 21px;
@@ -322,7 +310,7 @@ a {
   text-align: center;
   width: 250px;
 }
- 
+
 .main-footer .generated {
 	text-align: center;
   width: 250px;
@@ -378,7 +366,7 @@ a {
 	line-height: 26px;
   padding-left: 75px;
 }
- 
+
 .sorting span {
   font-size: 12px;
   font-weight: 400;
@@ -390,7 +378,6 @@ a {
   font-weight: 400;
   line-height: 18px;
 }
-
 
 .residence-image {
   padding: 30px 0;
@@ -426,22 +413,12 @@ a {
   padding-right: 75px;
 }
 
-a.button:last-child {
-  text-align: center;
-  color: white;
-  width: 142px;
-  font-weight: 700px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  background-color: #766357;
-}
-
-a.button {
+.button {
   width: 142px;
   text-align: center;
   color: white;
   font-weight: 700px;
   padding-top: 8px;
   padding-bottom: 8px;
-  background-color: #81b3d2; 
+  background-color: #81b3d2;
 }
