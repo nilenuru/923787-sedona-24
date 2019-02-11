@@ -153,7 +153,7 @@ h2 a:focus {
   background-color: #eeeeee;
   padding-top: 50px;
   padding-bottom: 63px;
- }
+}
 
 .reason-item h3 {
   font-size: 21px;
@@ -224,8 +224,8 @@ h2 a:focus {
   font-size: 21px;
   line-height: 26px;
   text-align: center;
-
 }
+
 .search-block h2{
   font-size: 30px;
   line-height: 36px;
@@ -281,16 +281,16 @@ h2 a:focus {
 }
 .date-of-departure input[type="text"],
 .date-of-arrival input[type="text"] {
-	width: 346px;
-	height: 38px;
-	background-color: #f2f2f2;
+  width: 346px;
+  height: 38px;
+  background-color: #f2f2f2;
  }
 
 .adult-item input[type="number"],
 .childern-item input[type="number"] {
-	width: 38px;
-	height: 38px;
-	background-color: #f2f2f2;
+  width: 38px;
+  height: 38px;
+  background-color: #f2f2f2;
 }
 
 .main-footer {
@@ -299,23 +299,23 @@ h2 a:focus {
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
-	text-align: center;
+  text-align: center;
 }
 
 .main-footer a {
-	color:#000000;
+  color:#000000;
   width: 250px;
 }
 
 .main-footer-hashtag {
-	font-size: 21px;
+  font-size: 21px;
   line-height: 26px;
   text-align: center;
   width: 250px;
 }
 
 .main-footer .generated {
-	text-align: center;
+  text-align: center;
   width: 250px;
 }
 
@@ -335,9 +335,6 @@ h2 a:focus {
   font-size: 16px;
   line-height: 21px;
 }
-.filter-sedona-item{
-
-}
 
 .sorting {
   display: flex;
@@ -346,11 +343,11 @@ h2 a:focus {
   padding-top: 31px;
   background-color: #ffffff;
   border-bottom: 1px solid #e5e5e5;
-  }
+}
 
 .sorting h2 {
-	font-size: 21px;
-	line-height: 26px;
+  font-size: 21px;
+  line-height: 26px;
   padding-left: 75px;
 }
 
@@ -413,6 +410,7 @@ h2 a:focus {
   width: 110px;
   padding-right: 75px;
 }
+
 .rating-item {
   background-color: #f2f2f2;
   padding: 5px;
@@ -421,6 +419,7 @@ h2 a:focus {
 .residence-buttons {
   margin-top: 18px;
 }
+
 .button {
   font-size: 14px;
   line-height: 21px;
@@ -434,6 +433,7 @@ h2 a:focus {
   background-color: #81b3d2;
   display: inline-block;
 }
+
 .button-brown {
   background-color: #766357;
 }
