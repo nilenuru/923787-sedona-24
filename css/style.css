@@ -171,7 +171,7 @@ h2 a:focus {
 .reason-item p,
 .reason-item span,
 .reason-info p,
-.reason-info span{
+.reason-info span {
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
@@ -184,7 +184,7 @@ h2 a:focus {
 	text-align: center;
   color: #000000;
   background-color: #ffffff;
-  }
+}
 
 .advantages-item {
   text-align: center;
@@ -218,6 +218,7 @@ h2 a:focus {
 .residence-buttons .button:focus {
   background-color: #669ec0;
 }
+
 .search-block {
   position: relative;
   display: flex;
@@ -239,7 +240,7 @@ h2 a:focus {
   line-height: 21px;
 	font-weight: 400;
   margin-bottom: 52px;
- }
+}
 
 .search-block a {
   font-size: 21px;
@@ -277,15 +278,17 @@ h2 a:focus {
   line-height: 26px;
   color: #ffffff;
 }
+
 .date-of-arrival {
-  margin-top: 55px;
+  
 }
+
 .date-of-departure input[type="text"],
 .date-of-arrival input[type="text"] {
   width: 346px;
   height: 38px;
   background-color: #f2f2f2;
- }
+}
 
 .adult-item input[type="number"],
 .childern-item input[type="number"] {
@@ -391,7 +394,7 @@ h2 a:focus {
 
 .residence-info {
   display: flex;
- }
+}
 
 .residence-info-item {
   margin-left: 30px;
