@@ -20,6 +20,29 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .container {
   width: 1200px;
   background: #ffffff;
@@ -27,23 +50,18 @@ a {
   margin: 0 auto;
 }
 
-.visually-hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-}
-
 .content-box-component {
   box-sizing: content-box;
 }
+
 
 .site-navigation,
 .main-footer ul,
 .sorting ul,
 .residence ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .main-navigation {
@@ -53,8 +71,8 @@ a {
   background-color: #ffffff;
 }
 
-.site-navigation {
-  display: flex;
+.site-navigation a {
+
 }
 
 .site-navigation li {
@@ -69,9 +87,9 @@ a {
 }
 
 .main-header-logo {
-  position: absolute;
+  position: relative;
   top: 0;
-  left: 50%;
+  left: 530px;
   width: 140px;
   height: 71px;
 }
@@ -280,7 +298,7 @@ h2 a:focus {
 }
 
 .date-of-arrival {
-  
+
 }
 
 .date-of-departure input[type="text"],
