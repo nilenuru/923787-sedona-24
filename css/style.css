@@ -64,6 +64,7 @@ a {
 .main-navigation a,
 .residence h2 a,
 .sorting a {
+  display: block;
   color: #000000;
 }
 
