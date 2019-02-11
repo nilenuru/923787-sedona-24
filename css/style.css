@@ -55,8 +55,6 @@ a {
 
 .site-navigation {
   display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 .site-navigation li {
@@ -70,7 +68,9 @@ a {
 }
 
 .main-header-logo {
-  order: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
   width: 140px;
   height: 71px;
 }
@@ -88,8 +88,8 @@ a {
 .main-footer a:focus,
 .sorting a:hover,
 .sorting a:focus,
-.residence-info-item h2 a:hover,
-.residence-info-item h2 a:focus {
+h2 a:hover,
+h2 a:focus {
   color: #81b3d2;
 }
 
@@ -213,8 +213,8 @@ a {
   background-color: #604e43;
 }
 
-.residence-buttons a.button:hover,
-.residence-buttons a.button:focus{
+.residence-buttons .button:hover,
+.residence-buttons .button:focus {
   background-color: #669ec0;
 }
 .search-block {
@@ -322,16 +322,12 @@ a {
 .filter-sedona {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
   color: #ffffff;
-  padding-right: 74px;
   padding-left: 72px;
-  padding-top: 28px;
-  padding-bottom: 31px;
-
+  padding-right: 74px;
   background: url("../img/filter-background.png") no-repeat 50%  ;
 }
 
@@ -339,23 +335,12 @@ a {
   font-size: 16px;
   line-height: 21px;
 }
+.filter-sedona-item{
 
-.filer-title {
-  width: 240px;
-}
-
-.checkbox-item {
-  padding-top: 28px;
-  padding-bottom: 31px;
-}
-
-.filter-residence {
-  width: 390px;
 }
 
 .sorting {
   display: flex;
-  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   padding-top: 31px;
@@ -451,3 +436,4 @@ a {
 }
 .button-brown {
   background-color: #766357;
+}
