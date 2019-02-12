@@ -66,28 +66,27 @@ input[type="radio"].visually-hidden {
   font-size: 14px;
   line-height: 26px;
   background-color: #ffffff;
-}
-
-.main-navigation ul {
-  display: flex;
-  align-items: center;
   margin: 0;
-  padding-top: 16px;
-  padding-bottom: 16px;
+
+
 }
 
-.site-navigation  {
+.site-navigation {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-left: 72px;
-  padding-right: 72px;
+  margin: 0;
+  padding: 0;
+}
+.site-navigation ul{
+  padding-left: 
 }
 
-.site-navigation li {
+.site-navigation a {
+  padding-top: 16px;
+  padding-bottom: 16px;
 
 }
-
 .site-navigation a,
 .residence h2 a,
 .sorting a {
