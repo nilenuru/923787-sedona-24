@@ -72,17 +72,22 @@ input[type="radio"].visually-hidden {
 .site-navigation {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 0;
+  margin-left: 72px;
+  margin-right: 72px;
   padding: 0;
+  margin-top:auto;
+  margin-bottom: auto;
+}
+
+.left {
+  margin-right: 240px;
 }
 
 .site-navigation li {
   box-sizing: border-box;
   padding-top: 16px;
   padding-bottom: 16px;
-  padding-left: 72px;
-  padding-right: 72px;
+
 }
 .site-navigation a,
 .residence h2 a,
