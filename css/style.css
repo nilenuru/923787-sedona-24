@@ -60,26 +60,35 @@ input[type="radio"].visually-hidden {
 .sorting ul,
 .residence ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .main-navigation {
-  display: flex;
   font-size: 14px;
   line-height: 26px;
   background-color: #ffffff;
 }
 
-.site-navigation a {
+.main-navigation ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
 
+.site-navigation  {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 72px;
+  padding-right: 72px;
 }
 
 .site-navigation li {
-  width: 240px;
+
 }
 
-.main-navigation a,
+.site-navigation a,
 .residence h2 a,
 .sorting a {
   display: block;
@@ -87,9 +96,9 @@ input[type="radio"].visually-hidden {
 }
 
 .main-header-logo {
-  position: relative;
+  position: absolute;
   top: 0;
-  left: 530px;
+  left: 50%;
   width: 140px;
   height: 71px;
 }
@@ -344,18 +353,39 @@ h2 a:focus {
 .filter-sedona {
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 400;
   color: #ffffff;
-  padding-left: 72px;
-  padding-right: 74px;
   background: url("../img/filter-background.png") no-repeat 50%  ;
 }
 
+.filter-sedona-container {
+  display: flex;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  padding-left: 72px;
+}
+
+.filter-sedona-item  {
+  width: 240px;
+  margin-top: 25px;
+}
+
+.checkbox-item {
+  padding-bottom: 30px;
+}
+
 .filter-sedona h2 {
+  display: block;
+  padding-bottom: 25px;
   font-size: 16px;
   line-height: 21px;
+}
+
+.price {
+  padding-right: 72px;
+  margin-top: 25px;
 }
 
 .sorting {
