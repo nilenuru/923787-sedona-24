@@ -67,8 +67,6 @@ input[type="radio"].visually-hidden {
   line-height: 26px;
   background-color: #ffffff;
   margin: 0;
-
-
 }
 
 .site-navigation {
@@ -78,14 +76,13 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 0;
 }
-.site-navigation ul{
-  padding-left: 
-}
 
-.site-navigation a {
+.site-navigation li {
+  box-sizing: border-box;
   padding-top: 16px;
   padding-bottom: 16px;
-
+  padding-left: 72px;
+  padding-right: 72px;
 }
 .site-navigation a,
 .residence h2 a,
