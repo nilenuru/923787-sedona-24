@@ -97,17 +97,22 @@ input[type="radio"].visually-hidden {
 
 .main-header-logo {
   position: absolute;
-  top: 0;
-  left: 47%;
+  top: 1px;
+  left: 50%;
+  margin-left: -70px;
   width: 140px;
   height: 71px;
 }
 
 .intro {
-  background: url("../img/back-photo.png") no-repeat;
+  background: url("../img/back-photo.png") no-repeat 100%;
   text-align: center;
-  padding-top: 132px;
-  padding-bottom: 288px;
+  margin: 0;
+  padding-top: 61px;
+}
+
+.intro img {
+  padding-bottom: 79px;
 }
 
 .site-navigation a:hover,
@@ -123,22 +128,27 @@ h2 a:focus {
 
 .preview {
   text-align: center;
-  padding-top: 60px;
+  margin: 0;
   background-color: #ffffff;
 }
 
 .preview h2 {
   font-size: 21px;
   line-height: 26px;
-  margin-right: 380px;
-  margin-left: 380px;
+  margin: 0;
+  padding-right: 380px;
+  padding-left: 380px;
+  padding-top: 60px;
+  padding-bottom: 38px;
 }
 
 .preview p {
+  margin: 0;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
-  margin-bottom: 40px;
+  margin: 0;
+  padding-bottom: 56px;
 }
 
 .reason-block {
@@ -163,22 +173,29 @@ h2 a:focus {
   text-align: center;
   font-size: 21px;
   line-height: 21px;
-  margin-top: 50px;
-  padding-left: 120px;
-  padding-right: 120px;
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-bottom: 30px;
 }
 
 .reason-info p {
   font-size: 14px;
   line-height: 21px;
-  padding-left: 35px;
-  padding-right: 35px;
+  margin: 0;
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 65px;
+
 }
 
 .reason-item {
   width: 400px;
   text-align: center;
   background-color: #eeeeee;
+  margin: 0;
   padding-top: 50px;
   padding-bottom: 63px;
 }
@@ -186,11 +203,13 @@ h2 a:focus {
 .reason-item h3 {
   font-size: 21px;
   line-height: 26px;
+  margin: 0;
   padding-left: 140px;
   padding-right: 140px;
 }
 
 .reason-item p {
+  margin: 0;
   padding-left: 70px;
   padding-right: 60px;
 }
@@ -216,6 +235,7 @@ h2 a:focus {
 .advantages-item {
   text-align: center;
   width: 400px;
+  margin: 0;
   padding-top: 160px;
   padding-bottom: 85px;
   padding-right: 55px;
@@ -225,6 +245,10 @@ h2 a:focus {
 .advantages-item h3 {
   font-size: 21px;
   line-height: 21px;
+  margin: 0;
+}
+.advantages-item p {
+  margin: 0;
 }
 
 .advantages-item span,
@@ -234,16 +258,16 @@ h2 a:focus {
   font-weight: 400;
 }
 
-.search-block a:hover,
-.search-block a:focus,
-.residence-buttons .button.button-brown:hover,
-.residence-buttons .button.button-brown:focus {
-  background-color: #604e43;
+.button:hover,
+.button:focus {
+  background-color: #669ec0;
 }
 
-.residence-buttons .button:hover,
-.residence-buttons .button:focus {
-  background-color: #669ec0;
+.search-block a:hover,
+.search-block a:focus,
+.button-brown:hover,
+.button-brown:focus {
+  background-color: #604e43;
 }
 
 .search-block {
@@ -258,15 +282,17 @@ h2 a:focus {
 .search-block h2{
   font-size: 30px;
   line-height: 36px;
-  margin-top: 60px;
-  margin-bottom: 40px;
+  margin: 0;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .search-block p {
   font-size: 14px;
   line-height: 21px;
 	font-weight: 400;
-  margin-bottom: 52px;
+  margin: 0;
+  padding-bottom: 52px;
 }
 
 .search-block a {
@@ -274,6 +300,7 @@ h2 a:focus {
   line-height: 26px;
   text-align: center;
 	color: #ffffff;
+  margin: 0;
   margin-left: 315px;
   margin-right: 315px;
   padding-top: 35px;
@@ -343,6 +370,7 @@ h2 a:focus {
   line-height: 26px;
   text-align: center;
   width: 250px;
+  margin: 0;
 }
 
 .main-footer .generated {
@@ -488,12 +516,6 @@ h2 a:focus {
 
 .button-brown {
   background-color: #766357;
-}
-
-div .rating-item {
-width: 110px;
-height: 27px;
-background-color: #f2f2f2;
 }
 
 .residence-button .button {
