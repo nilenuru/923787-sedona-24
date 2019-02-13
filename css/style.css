@@ -54,7 +54,6 @@ input[type="radio"].visually-hidden {
   box-sizing: content-box;
 }
 
-
 .site-navigation,
 .main-footer ul,
 .sorting ul,
@@ -99,7 +98,7 @@ input[type="radio"].visually-hidden {
 .main-header-logo {
   position: absolute;
   top: 0;
-  left: 50%;
+  left: 47%;
   width: 140px;
   height: 71px;
 }
@@ -487,19 +486,17 @@ h2 a:focus {
   display: inline-block;
 }
 
-<<<<<<< Updated upstream
 .button-brown {
   background-color: #766357;
 }
-=======
+
 div .rating-item {
 width: 110px;
 height: 27px;
 background-color: #f2f2f2;
 }
 
-.residence-button button {
+.residence-button .button {
   width: 110px;
   height: 27px;
 }
->>>>>>> Stashed changes
