@@ -102,10 +102,13 @@ input[type="radio"].visually-hidden {
   margin-left: -70px;
   width: 140px;
   height: 71px;
+  z-index: 1;
 }
 
 .intro {
-  background: url("../img/back-photo.png") no-repeat 100%;
+  position: relative;
+  background: url("../img/back-photo.png");
+  background-repeat: no-repeat;
   text-align: center;
   margin: 0;
   padding-top: 61px;
@@ -113,6 +116,18 @@ input[type="radio"].visually-hidden {
 
 .intro img {
   padding-bottom: 79px;
+}
+
+.intro img::after { /* Не могу понять что не такб почему не отоюражаеться*/
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 100px;
+  width: 1201px;
+  height: 59px;
+  background-image: url("../img/intro-mask.svg");
+  background-repeat: no-repeat;
+  background-color: #000000;
 }
 
 .site-navigation a:hover,
@@ -193,8 +208,6 @@ h2 a:focus {
   width: 400px;
   text-align: center;
   background-color: #eeeeee;
-  padding-top: 50px;
-  padding-bottom: 63px;
 }
 
 .reason-item h3 {
@@ -203,12 +216,16 @@ h2 a:focus {
   margin: 0;
   padding-left: 140px;
   padding-right: 140px;
+  padding-bottom: 30px;
+  padding-top: 50px;
 }
 
 .reason-item p {
   margin: 0;
+  padding-top: 30px;
   padding-left: 70px;
   padding-right: 60px;
+  padding-bottom: 63px;
 }
 
 .reason-item p,
@@ -230,18 +247,54 @@ h2 a:focus {
 }
 
 .advantages-item {
+  position: relative;
   text-align: center;
   width: 400px;
-  padding-top: 160px;
-  padding-bottom: 85px;
-  padding-right: 55px;
-  padding-left: 55px;
 }
 
 .advantages-item h3 {
   font-size: 21px;
   line-height: 21px;
   margin: 0;
+  padding-bottom: 30px;
+  padding-top: 160px;
+}
+
+.house-ico {
+  content: "";
+  position: absolute;
+  left: 50%;
+  margin-left: -37.5px;
+  top:60px;
+  width: 75px;
+  height: 72px;
+  background-image: url("../img/house.svg");
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+.food-ico {
+  content: "";
+  position: absolute;
+  left: 50%;
+  margin-left: -37.5px;
+  top:60px;
+  width: 75px;
+  height: 72px;
+  background-image: url("../img/burger.svg");
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+.souvenirs-ico {
+  content: "";
+  position: absolute;
+  left: 50%;
+  margin-left: -37.5px;
+  top:60px;
+  width: 75px;
+  height: 76px;
+  background-image: url("../img/souvenirs.svg");
+  background-repeat: no-repeat;
+  background-color: #ffffff;
 }
 
 .advantages-item p {
@@ -249,7 +302,9 @@ h2 a:focus {
   line-height: 21px;
   font-weight: 400;
   margin: 0;
+  padding-bottom: 90px;
 }
+
 
 .advantages-item span,
 .advantages-item p  {
@@ -279,18 +334,20 @@ h2 a:focus {
   text-align: center;
 }
 
-.search-block h2{
+.search-block h2 {
+  margin: 0;
   font-size: 30px;
   line-height: 36px;
-  margin-top: 60px;
-  margin-bottom: 40px;
+  padding-top: 56px;
+  padding-bottom: 35px;
 }
 
 .search-block p {
   font-size: 14px;
   line-height: 21px;
 	font-weight: 400;
-  margin-bottom: 52px;
+  margin: 0;
+  padding-bottom: 52px;
 }
 
 .search-block a {
@@ -512,15 +569,4 @@ h2 a:focus {
 
 .button-brown {
   background-color: #766357;
-}
-
-div .rating-item {
-width: 110px;
-height: 27px;
-background-color: #f2f2f2;
-}
-
-.residence-button .button {
-  width: 110px;
-  height: 27px;
 }
