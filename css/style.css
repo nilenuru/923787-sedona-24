@@ -450,7 +450,7 @@ h2 a:focus {
 }
 
 .button-minus {
-  background-image:
+  background-image: url("../img/minus.png");
 }
 .people-item input[type="number"] {
   width: 38px;
