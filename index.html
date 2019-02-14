@@ -103,14 +103,18 @@
           <h2 class="visually-hidden">Форма заказа отеля</h2>
           <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
             <div class="date-of-arrival">
-              <label for="date-of-arrival">Дата заезда</label>
+              <label for="date-of-arrival">Дата заезда:</label>
               <input id="date-of-arrival" type="text" name="date" value="24 апреля 2017">
-              <button type="button" class="button-calendar" name="calendar" aria-label="Выбор даты выезда">Кадендарь</button>
+              <button type="calendar" class="button-calendar" name="calendar" aria-label="Выбор даты выезда">
+                <span class="visually-hidden">Кадендарь</span>
+              </button>
             </div>
             <div class="date-of-departure">
-              <label for="date-of-departure">Дата выезда</label>
+              <label for="date-of-departure">Дата выезда:</label>
               <input id="date-of-departure" type="text" name="date" value="4 июля 2017">
-              <button type="button" class="button-calendar" name="calendar" aria-label="Выбор даты заезда">Кадендарь</button>
+              <button type="button" class="button-calendar" name="calendar" aria-label="Выбор даты заезда">
+                <span class="visually-hidden">Кадендарь</span>
+              </button>
             </div>
             <div class="people-container">
               <div class="people-item">
