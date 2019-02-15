@@ -508,7 +508,7 @@ h2 a:focus {
   align-items: center;
   background-color: #ffffff;
   text-align: center;
-  padding-left: 131px;
+  padding-left: 114px;
   padding-right: 101px;
 }
 
@@ -652,15 +652,12 @@ h2 a:focus {
   padding: 0;
 }
 
-.residence-image {
-  width: 135px;
-}
-
 .residence-image img {
   display: block;
 }
 
 .residence-item {
+  position: relative;
   display: flex;
   justify-content: space-between;
   padding-left: 72px;
@@ -676,26 +673,34 @@ h2 a:focus {
 
 .residence-info-item {
   margin-left: 30px;
+  padding: 0;
 }
 
-.residence-item h2 {
+.residence-info-item h2 {
   color: #000000;
   font-size: 21px;
   line-height: 26px;
-  margin-top: -5px;
+  margin: 0;
+}
+
+.residence-hotel {
+  display: inline-block;
+  padding-right: 30px;
+  padding-top: 17px;
 }
 
 .rating {
-  width: 240px;
-  text-align: center;
-  padding-right: 75px;
-  margin-top: -5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .rating-stars {
-  position:relative;
+  max-width: 90px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  align-items: center;
+
 }
 
 .star {
@@ -703,11 +708,13 @@ h2 a:focus {
   background-repeat: no-repeat;
   width: 18px;
   height: 17px;
-  background-color: #ffffff
+  background-color: #ffffff;
+  margin-left: 5px;
+
 }
 
 .rating-item {
-  background-color: #f2f2f2;
+  padding-top: 52px;
 }
 
 .residence-buttons {
