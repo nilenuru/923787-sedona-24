@@ -546,7 +546,7 @@ h2 a:focus {
 }
 
 .social-button:active {
-background-color: #5496bd; 
+  background-color: #5496bd;
 }
 
 .social-button:active path {
