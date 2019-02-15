@@ -724,3 +724,8 @@ h2 a:focus {
 .button-brown {
   background-color: #766357;
 }
+.checkbox-item {
+  background-image: url("../img/checkbox-on.svg");
+  width: 27px;
+  height: 23px;
+}
