@@ -371,6 +371,7 @@ h2 a:focus {
 }
 
 .modal-search {
+  display: flex;
   position: absolute;
   top: 100%;
   left: 50%;
@@ -378,7 +379,6 @@ h2 a:focus {
   font-size: 14px;
   line-height: 26px;
   width: 568px;
-  height: 395px;
   box-shadow: 0px 7px 15px 0 rgba(0,1,1,0.15);
   background-color: #ffffff;
 }
@@ -443,10 +443,14 @@ h2 a:focus {
   display: flex;
   justify-content: space-between;
   padding-top: 56px;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-bottom: 67px;
 }
 
-.people-item label {
-  padding-left: 55px;
+.people-item,
+.input-people-item {
+  display: flex;
 }
 
 .button-minus {
@@ -455,6 +459,7 @@ h2 a:focus {
   background-repeat: no-repeat;
   width: 38px;
   height: 38px;
+  margin-left: 40px;
 }
 
 .button-plus {
@@ -466,17 +471,34 @@ h2 a:focus {
   text-align: center;
 }
 
-.input-people-item {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
-
 .input-people-item input {
   text-align: center;
   width: 38px;
   height: 38px;
   background-color: #f2f2f2;
+}
+
+.button {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding-left: 17px;
+  padding-right: 17px;
+  background-color: #81b3d2;
+  display: inline-block;
+}
+
+.button-find {
+  text-transform: uppercase;
+  width: 458px;
+  height: 58px;
+  padding-top: 17px;
+  padding-bottom: 22px;
+  padding-left: 197px;
+  padding-right: 196px;
+  margin-bottom: 55px;
 }
 
 .main-footer {
@@ -500,7 +522,33 @@ h2 a:focus {
   width: 250px;
 }
 
-.main-footer .generated {
+.social {
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+}
+.social-button {
+  display: flex;
+  width: 46px;
+  height: 46px;
+  background-color: #81b3d2;
+}
+.social-button-tw {
+  padding-top: 17px;
+  padding-left: 15px;
+  padding-right: 14px;
+  padding-bottom: 16px;
+
+}
+
+.generated {
+  background-image: url("../img/logo-htmlacademy.svg");
+  background-repeat: no-repeat;
+  width: 115px;
+  height: 41px;
+
   text-align: center;
   width: 250px;
 }
@@ -625,20 +673,6 @@ h2 a:focus {
 
 .residence-buttons {
   margin-top: 18px;
-}
-
-.button {
-  font-size: 14px;
-  line-height: 21px;
-  width: auto;
-  height: 5%;
-  text-align: center;
-  color: #ffffff;
-  font-weight: 700;
-  padding-left: 17px;
-  padding-right: 17px;
-  background-color: #81b3d2;
-  display: inline-block;
 }
 
 .button-brown {
