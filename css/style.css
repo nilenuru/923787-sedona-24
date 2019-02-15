@@ -541,10 +541,17 @@ h2 a:focus {
 }
 
 .social-button:hover,
- .social-button:focus {
+.social-button:focus {
   background-color: #669ec0;
 }
 
+.social-button:active {
+background-color: #5496bd; 
+}
+
+.social-button:active path {
+  fill: #87b6d1;
+}
 .generated {
   background-image: url("../img/logo-htmlacademy.svg");
   background-repeat: no-repeat;
