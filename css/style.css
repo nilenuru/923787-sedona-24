@@ -633,7 +633,15 @@ h2 a:focus {
 }
 
 .sorting-arrow {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 502px;
+  margin-right: 70px;
+}
 
+.arrow-up:hover path,
+.arrow-up:focus path {
+  fill: #231f20;
 }
 
 .residence-list {
