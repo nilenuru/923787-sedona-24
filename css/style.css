@@ -588,8 +588,14 @@ h2 a:focus {
   margin-top: 25px;
 }
 
-.checkbox-item {
-  padding-bottom: 30px;
+.checkboxes::before {
+  content: "";
+  background-image: url("../img/checkbox-on.svg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  width: 23px;
+  height: 23px;
+  padding-right: 50px;
 }
 
 .filter-sedona h2 {
@@ -722,9 +728,4 @@ h2 a:focus {
 
 .button-brown {
   background-color: #766357;
-}
-.checkbox-item {
-  background-image: url("../img/checkbox-on.svg");
-  width: 27px;
-  height: 23px;
 }
