@@ -557,8 +557,12 @@ h2 a:focus {
   padding: 0;
 }
 
-.generated-a {
-  text-align: center;
+.generated a:hover path,
+.generated a:focus path {
+  fill: #81b3d2
+}
+.generated a:active path {
+  fill: #bdbbbc;  
 }
 
 .filter-sedona {
