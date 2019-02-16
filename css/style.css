@@ -26,18 +26,14 @@ img {
 }
 
 .visually-hidden:not(:focus):not(:active),
-input[type="checkbox"].visually-hidden,
-input[type="radio"].visually-hidden {
+input[type="checkbox"].visually-hidden {
   position: absolute;
-
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
-
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -201,7 +197,6 @@ h2 a:focus {
   padding-left: 35px;
   padding-right: 35px;
   margin: 0;
-
 }
 
 .reason-item {
@@ -307,7 +302,6 @@ h2 a:focus {
   padding-right: 55px;
 }
 
-
 .advantages-item span,
 .advantages-item p  {
   font-size: 14px;
@@ -406,6 +400,7 @@ h2 a:focus {
 .date-of-departure label {
   padding-right: 17px;
 }
+
 .date-of-departure input[type="text"],
 .date-of-arrival input[type="text"] {
   font-size: 14px;
@@ -588,14 +583,35 @@ h2 a:focus {
   margin-top: 25px;
 }
 
-.checkboxes::before {
+.checkboxes {
+  position: relative;
+  display: block;
+  margin-bottom: 36px;
+  padding-left: 40px;
+}
+
+.checkboxes label {
+  position: relative;
+}
+
+.filter-input-checkbox:checked + label::after {
   content: "";
+  position: absolute;
   background-image: url("../img/checkbox-on.svg");
   background-repeat: no-repeat;
-  background-position: 100%;
-  width: 23px;
+  left: -40px;
+  width: 27px;
   height: 23px;
-  padding-right: 50px;
+}
+
+.filter-input-checkbox + label::after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/checkbox-off.svg");
+  background-repeat: no-repeat;
+  left: -40px;
+  width: 27px;
+  height: 23px;
 }
 
 .filter-sedona h2 {
