@@ -114,7 +114,7 @@ input[type="checkbox"].visually-hidden {
   padding-bottom: 79px;
 }
 
-.intro::after { /* Не могу понять что не такб почему не отоюражаеться*/
+.intro::after {
   position: absolute;
   content: "";
   left: 0;
@@ -410,25 +410,26 @@ h2 a:focus {
   background-color: #f2f2f2;
 }
 
-.date-of-arrival .button-calendar {
+.button-calendar {
   position: absolute;
-  left: 483px;
-  top: 63px;
+  background-color: transparent;
   background-image: url("../img/calendar.svg");
   background-repeat: no-repeat;
-  width: 28px;
-  height: 30px;
+  width: 21px;
+  height: 22px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.date-of-arrival .button-calendar {
+  left: 483px;
+  top: 63px;
 }
 
 .date-of-departure .button-calendar {
-  position: absolute;
   left: 483px;
   top: 130px;
-  content: "";
-  background-image: url("../img/calendar.svg");
-  background-repeat: no-repeat;
-  width: 28px;
-  height: 30px;
 }
 
 .people-container {
@@ -447,29 +448,35 @@ h2 a:focus {
   display: flex;
 }
 
-.button-minus {
-  background-image: url("../img/minus.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 38px;
-  height: 38px;
-  margin-left: 40px;
-}
-
-.button-plus {
-  background-image: url("../img/plus.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 38px;
-  height: 38px;
-  text-align: center;
+.input-people-item {
+  margin-left: 41px;
 }
 
 .input-people-item input {
   text-align: center;
   width: 38px;
   height: 38px;
+  border: none;
+  box-shadow: none;
   background-color: #f2f2f2;
+}
+
+.button-minus {
+  background-image: url("../img/minus.png");
+}
+
+.button-plus {
+  background-image: url("../img/plus.png");
+}
+
+.button-counter {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 38px;
+  height: 38px;
+  border: none;
+  background-color: #f2f2f2;
+  cursor: pointer;
 }
 
 .button {
@@ -532,7 +539,6 @@ h2 a:focus {
   flex-wrap: wrap;
   width: 46px;
   height: 46px;
-
   background-color: #81b3d2;
 }
 
