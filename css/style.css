@@ -75,7 +75,11 @@ input[type="checkbox"].visually-hidden {
 }
 
 .left {
-  margin-right: 240px;
+  margin-right: 219px;
+  margin-left: -22px;
+  padding: 6px;
+  padding-left: 4px;
+  padding-right: 9px;
 }
 
 .site-navigation li {
@@ -152,15 +156,17 @@ h2 a:focus {
   padding-right: 380px;
   padding-left: 380px;
   padding-top: 60px;
-  padding-bottom: 38px;
+  padding-bottom: 29px;
 }
 
 .preview p {
   font-size: 14px;
-  line-height: 21px;
+  line-height: 26px;
   font-weight: 400;
   margin: 0;
-  padding-bottom: 56px;
+  padding-bottom: 52px;
+  padding-left: 355px;
+  padding-right: 356px;
 }
 
 .reason-block {
