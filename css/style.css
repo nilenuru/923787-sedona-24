@@ -392,11 +392,8 @@ h2 a:focus {
   padding-top: 29px;
 }
 
+.date-of-departure label,
 .date-of-arrival label {
-  padding-right: 18px;
-}
-
-.date-of-departure label {
   padding-right: 17px;
 }
 
@@ -408,6 +405,7 @@ h2 a:focus {
   width: 346px;
   height: 38px;
   background-color: #f2f2f2;
+  border: 0;
 }
 
 .button-calendar {
