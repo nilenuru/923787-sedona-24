@@ -107,7 +107,10 @@ input[type="checkbox"].visually-hidden {
   background-repeat: no-repeat;
   text-align: center;
   margin: 0;
-  padding-top: 61px;
+  padding-top: 77px;
+  width: 1200px;
+  height: 506px;
+  background-position: 0px -83px;
 }
 
 .intro img {
@@ -118,7 +121,7 @@ input[type="checkbox"].visually-hidden {
   position: absolute;
   content: "";
   left: 0;
-  bottom: -2px;
+  bottom: -3px;
   width: 1200px;
   height: 59px;
   background-image: url("../img/intro-mask.svg");
@@ -364,7 +367,6 @@ h2 a:focus {
 }
 
 .modal-search {
-  display: flex;
   position: absolute;
   top: 100%;
   left: 50%;
@@ -406,6 +408,8 @@ h2 a:focus {
   height: 38px;
   background-color: #f2f2f2;
   border: 0;
+  font-weight: inherit;
+  text-transform: inherit;
 }
 
 .button-calendar {
@@ -516,6 +520,14 @@ h2 a:focus {
   text-align: center;
   padding-left: 114px;
   padding-right: 101px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  margin: 0;
+}
+.main-footer-index {
+  position: relative;
+  margin-top: -118px;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .main-footer a {
@@ -526,6 +538,7 @@ h2 a:focus {
   font-size: 21px;
   line-height: 26px;
   text-align: center;
+  margin: 0;
 }
 
 .social {
@@ -534,7 +547,9 @@ h2 a:focus {
   width: 150px;
   padding: 0;
   margin-right: 228px;
-  margin-left: 256px
+  margin-left: 256px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .social-button {
