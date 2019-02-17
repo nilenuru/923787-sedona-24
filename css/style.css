@@ -628,16 +628,15 @@ h2 a:focus {
 
 .price {
   width: 330px;
-  padding-right: 72px;
-  padding-bottom: 13px;
+  margin-right: 74px;
+  color: #ffffff;
 }
 
 .price-title {
   font-size: 16px;
   line-height: 21px;
   padding-top: 31px;
-  padding-bottom: 13px;
-  margin: 0;
+  margin-bottom: 13px;
 }
 
 .price-item {
@@ -649,35 +648,23 @@ h2 a:focus {
   border-radius: 2px;
 }
 
-.price-item::after {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  content: "";
-  position: absolute;
-  width: 2px;
-  height: 22px;
-  background: #ffffff;
-  transform: translate(-50%, -50%);
-}
-
 .price-item label {
   display: inline-block;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 33px;
   vertical-align: top;
   cursor: pointer;
-}
-
-.price-item .min-price,
-.price-item .max-price {
-  width: 90px;
+  color: #ffffff;
   padding-left: 65px;
 }
 
+.price-item .min-price
+.price-item .max-price {
+  width: 90px;
+}
+
 .price-item input {
-  width: 50px;
-  margin: 0;
+  width: 69px;
   color: inherit;
   font-size: 14px;
   line-height: 21px;
@@ -685,6 +672,75 @@ h2 a:focus {
   border: none;
 }
 
+.price-item::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2px;
+  height: 22px;
+  background: #ffffff;
+  transform: translate(-50%, -50%);
+}
+
+.price-control {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.range-control-item {
+  position: absolute;
+  top: -9px;
+  width: 4px;
+  height: 4px;
+  background: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  cursor: pointer;
+}
+
+.price-control .bar {
+  width: 80%;
+  height: 2px;
+  background: #ffffff;
+}
+
+.price-control .scale {
+  height: 2px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.range-control-item:hover,
+.range-control-item:focus {
+  background: #1c4f80;
+}
+
+.range-control-min {
+  left: 0;
+}
+
+.range-control-max {
+  left: 80%;
+}
+
+.button-transparent {
+  display: block;
+  margin: 0 auto;
+  padding: 6px 35px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.button-transparent:hover {
+  color: #000000;
+  background: #ffffff;
+}
 .sorting {
   display: flex;
   justify-content: flex-start;
