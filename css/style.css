@@ -562,7 +562,7 @@ h2 a:focus {
   fill: #81b3d2
 }
 .generated a:active path {
-  fill: #bdbbbc;  
+  fill: #bdbbbc;
 }
 
 .filter-sedona {
@@ -582,15 +582,23 @@ h2 a:focus {
   padding-left: 72px;
 }
 
+.filter-sedona-item h2 {
+  display: block;
+  margin: 0;
+  font-size: 16px;
+  line-height: 21px;
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+
 .filter-sedona-item  {
   width: 240px;
-  margin-top: 25px;
 }
 
 .checkboxes {
   position: relative;
   display: block;
-  margin-bottom: 36px;
+  padding-bottom: 36px;
   padding-left: 40px;
 }
 
@@ -618,16 +626,63 @@ h2 a:focus {
   height: 23px;
 }
 
-.filter-sedona h2 {
-  display: block;
-  padding-bottom: 25px;
-  font-size: 16px;
-  line-height: 21px;
+.price {
+  width: 330px;
+  padding-right: 72px;
+  padding-bottom: 13px;
 }
 
-.price {
-  padding-right: 72px;
-  margin-top: 25px;
+.price-title {
+  font-size: 16px;
+  line-height: 21px;
+  padding-top: 31px;
+  padding-bottom: 13px;
+  margin: 0;
+}
+
+.price-item {
+  position: relative;
+  font-size: 0;
+  height: 36px;
+  margin-bottom: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+}
+
+.price-item::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 22px;
+  background: #ffffff;
+  transform: translate(-50%, -50%);
+}
+
+.price-item label {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 21px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.price-item .min-price,
+.price-item .max-price {
+  width: 90px;
+  padding-left: 65px;
+}
+
+.price-item input {
+  width: 50px;
+  margin: 0;
+  color: inherit;
+  font-size: 14px;
+  line-height: 21px;
+  background: none;
+  border: none;
 }
 
 .sorting {

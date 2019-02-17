@@ -66,18 +66,23 @@
           </div>
         </div>
         <div class="price">
-          <h2 class="price-title">Стоимость в сутки(Р)</h2>
+          <h2 class="price-title">Стоимость в сутки (р):</h2>
           <div class="price-item">
-            <label for="min-price">От</label>
-            <input type="text" id="min-price" name="min-price" value="0" aria-label="Минимальная стоимость">
+            <label  class="min-price">От
+              <input type="text" id="min-price" name="min-price" value="0" aria-label="Минимальная стоимость">
+            </label>
+            <label class="max-price">До
+              <input type="text" id="max-price" name="max-price" value="3000" aria-label="Максимальная стоимость">
+            </label>
           </div>
-          <div class="price-item">
-            <label for="max-price">От</label>
-            <input type="text" id="max-price" name="max-price" value="3000" aria-label="Максимальная стоимость">
+          <div class="range-control">
+            <div class="scale">
+              <div class="bar"></div>
+            </div>
+            <div class="range-control-item range-control-min"></div>
+            <div class="range-control-item range-control-max"></div>
           </div>
-          <div class="range-of-chose">
-          </div>
-          <button type="submit">Показать</button>
+          <button  class="button-transparent" type="submit">Показать</button>
         </div>
       </form>
     </section>
