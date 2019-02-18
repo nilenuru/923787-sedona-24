@@ -192,18 +192,18 @@ h2 a:focus {
   font-size: 21px;
   line-height: 21px;
   margin: 0;
-  padding-top: 50px;
+  padding-top: 45px;
   padding-left: 120px;
   padding-right: 120px;
-  padding-bottom: 30px;
+  padding-bottom: 24px;
 }
 
 .reason-info p {
   font-size: 14px;
   line-height: 21px;
-  padding-top: 30px;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-top: 21px;
+  padding-left: 48px;
+  padding-right: 48px;
   margin: 0;
 }
 
@@ -215,20 +215,20 @@ h2 a:focus {
 
 .reason-item h3 {
   font-size: 21px;
-  line-height: 26px;
+  line-height: 21px;
   margin: 0;
   padding-left: 140px;
   padding-right: 140px;
-  padding-bottom: 30px;
-  padding-top: 50px;
+  padding-bottom: 24px;
+  padding-top: 46px;
 }
 
 .reason-item p {
   margin: 0;
-  padding-top: 30px;
-  padding-left: 70px;
-  padding-right: 60px;
-  padding-bottom: 63px;
+  padding-top: 21px;
+  padding-left: 68px;
+  padding-right: 69px;
+  padding-bottom: 60px;
 }
 
 .reason-item p,
@@ -259,8 +259,8 @@ h2 a:focus {
   font-size: 21px;
   line-height: 21px;
   margin: 0;
-  padding-bottom: 30px;
-  padding-top: 160px;
+  padding-bottom: 24px;
+  padding-top: 159px;
 }
 
 .house-ico {
@@ -268,19 +268,20 @@ h2 a:focus {
   position: absolute;
   left: 50%;
   margin-left: -37.5px;
-  top:60px;
+  top: 59px;
   width: 75px;
   height: 72px;
   background-image: url("../img/house.svg");
   background-repeat: no-repeat;
   background-color: #ffffff;
 }
+
 .food-ico {
   content: "";
   position: absolute;
   left: 50%;
   margin-left: -37.5px;
-  top:60px;
+  top: 60px;
   width: 75px;
   height: 72px;
   background-image: url("../img/burger.svg");
@@ -291,8 +292,8 @@ h2 a:focus {
   content: "";
   position: absolute;
   left: 50%;
-  margin-left: -37.5px;
-  top:60px;
+  margin-left: -31.5px;
+  top: 55px;
   width: 75px;
   height: 76px;
   background-image: url("../img/souvenirs.svg");
@@ -305,8 +306,8 @@ h2 a:focus {
   line-height: 21px;
   font-weight: 400;
   margin: 0;
-  padding-bottom: 90px;
-  padding-left: 55px;
+  padding-bottom: 83px;
+  padding-left: 50px;
   padding-right: 55px;
 }
 
