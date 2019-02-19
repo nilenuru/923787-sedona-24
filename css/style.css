@@ -86,8 +86,18 @@ input[type="checkbox"].visually-hidden {
   box-sizing: border-box;
   padding-top: 16px;
   padding-bottom: 16px;
-
 }
+
+.site-navigation ul:nth-child(1),
+.site-navigation ul:nth-child(2) {
+  text-align: left;
+}
+
+.site-navigation ul:nth-child(3),
+.site-navigation ul:nth-child(4) {
+  text-align: right;
+}
+
 .site-navigation a,
 .residence h2 a,
 .sorting a {
@@ -340,7 +350,7 @@ h2 a:active {
   font-size: 30px;
   line-height: 36px;
   padding-top: 49px;
-  margin-bottom: 26px;
+  margin-bottom: 29px;
 }
 
 .search-block p {
@@ -348,7 +358,7 @@ h2 a:active {
   line-height: 21px;
 	font-weight: 400;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 51px;
   padding-left: 138px;
   padding-right: 139px;
 }
@@ -477,6 +487,7 @@ h2 a:active {
 .adult {
   margin-left: 41px;
 }
+
 .input-people-item input {
   text-align: center;
   width: 38px;
@@ -487,15 +498,32 @@ h2 a:active {
 }
 
 .input-people-item input:hover {
-
 }
+
 .button-minus {
   background-image: url("../img/minus.png");
-  color: #000000;
+}
+
+.button-minus:hover,
+.button-minus:focus {
+  background-image: url("../img/minus_1.png");
+}
+
+.button-minus:active {
+  background-image: url("../img/minus_2.png");
 }
 
 .button-plus {
   background-image: url("../img/plus.png");
+}
+
+.button-plus:hover,
+.button-plus:focus {
+  background-image: url("../img/plus_1.png");
+}
+
+.button-plus:active {
+  background-image: url("../img/plus_2.png");
 }
 
 .button-counter {
@@ -558,6 +586,10 @@ h2 a:active {
   margin-top: 11px;
 }
 
+.maps img {
+  display: block;
+}
+
 .main-footer {
   display: flex;
   flex-direction: row;
@@ -565,8 +597,6 @@ h2 a:active {
   align-items: center;
   background-color: #ffffff;
   text-align: center;
-  padding-left: 114px;
-  padding-right: 101px;
   padding-top: 36px;
   padding-bottom: 36px;
   margin: 0;
@@ -582,7 +612,7 @@ h2 a:active {
 }
 
 .main-footer-hashtag {
-  width: 400px;
+  max-width: 400px;
   font-size: 21px;
   line-height: 26px;
   text-align: center;
@@ -590,6 +620,7 @@ h2 a:active {
 }
 
 .social {
+  max-width: 400px;
   display: flex;
   justify-content: space-between;
   width: 400px;
@@ -624,6 +655,7 @@ h2 a:active {
 }
 
 .generated {
+  max-width: 400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -635,6 +667,7 @@ h2 a:active {
 .generated a:focus path {
   fill: #81b3d2
 }
+
 .generated a:active path {
   fill: #bdbbbc;
 }
