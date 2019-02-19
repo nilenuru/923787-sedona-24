@@ -325,27 +325,6 @@ h2 a:active {
   font-weight: 400;
 }
 
-.button:hover,
-.button:focus {
-  background-color: #669ec0;
-}
-
-.button:active {
-  background-color: #5496bd;
-  color: #87b6d1;
-}
-
-.search-block a:hover,
-.search-block a:focus,
-.button-brown:hover,
-.button-brown:focus {
-  background-color: #604e43;
-}
-
-.button-brown:active {
-  background-color: #503e33;
-  color: #847870;
-}
 
 .search-block {
   position: relative;
@@ -385,8 +364,6 @@ h2 a:active {
   padding-bottom: 33px;
   background-color: #766357;
 }
-
-
 
 .search-block a:active {
   background-color: #503e33;
@@ -429,8 +406,8 @@ h2 a:active {
   margin-right: 17px;
 }
 
-.date-of-departure input[type="text"],
-.date-of-arrival input[type="text"] {
+.date-of-departure input,
+.date-of-arrival input {
   font-size: 14px;
   line-height: 26px;
   padding-left: 12px;
@@ -442,6 +419,16 @@ h2 a:active {
   text-transform: inherit;
 }
 
+.date-of-departure input:hover,
+.date-of-arrival input:hover {
+  background-color: #ebebeb;
+}
+
+.date-of-departure input:focus,
+.date-of-arrival input:focus {
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+}
 .button-calendar {
   position: absolute;
   background-color: transparent;
@@ -481,10 +468,6 @@ h2 a:active {
   padding-bottom: 41px;
 }
 
-.adult {
-  margin-left: 41px;
-}
-
 .people-item,
 .input-people-item {
   display: flex;
@@ -507,6 +490,9 @@ h2 a:active {
   background-color: #f2f2f2;
 }
 
+.input-people-item input:hover {
+  
+}
 .button-minus {
   background-image: url("../img/minus.png");
   color: #000000;
@@ -538,6 +524,28 @@ h2 a:active {
   display: inline-block;
 }
 
+.button:hover,
+.button:focus {
+  background-color: #669ec0;
+}
+
+.button:active {
+  background-color: #5496bd;
+  color: #87b6d1;
+}
+
+.search-block a:hover,
+.search-block a:focus,
+.button-brown:hover,
+.button-brown:focus {
+  background-color: #604e43;
+}
+
+.button-brown:active {
+  background-color: #503e33;
+  color: #847870;
+}
+
 .button-find {
   text-transform: uppercase;
   width: 460px;
@@ -549,10 +557,6 @@ h2 a:active {
   margin-top: 11px;
 }
 
-.button a:active {
-  background-color: #5496bd;
-  color: #87b6d1;
-}
 .main-footer {
   display: flex;
   flex-direction: row;
