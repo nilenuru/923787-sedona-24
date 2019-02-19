@@ -143,6 +143,13 @@ h2 a:focus {
   color: #81b3d2;
 }
 
+.site-navigation a:active,
+.main-footer a:active,
+.sorting a:active,
+h2 a:active {
+  color: #c7c7c7;
+}
+
 .preview {
   text-align: center;
   margin: 0;
@@ -323,11 +330,21 @@ h2 a:focus {
   background-color: #669ec0;
 }
 
+.button:active {
+  background-color: #5496bd;
+  color: #87b6d1;
+}
+
 .search-block a:hover,
 .search-block a:focus,
 .button-brown:hover,
 .button-brown:focus {
   background-color: #604e43;
+}
+
+.button-brown:active {
+  background-color: #503e33;
+  color: #847870;
 }
 
 .search-block {
@@ -357,7 +374,6 @@ h2 a:focus {
   padding-right: 139px;
 }
 
-
 .search-block a {
   font-size: 21px;
   line-height: 26px;
@@ -370,9 +386,11 @@ h2 a:focus {
   background-color: #766357;
 }
 
-.search-block a:hover,
+
+
 .search-block a:active {
-  background-color: #604e43;
+  background-color: #503e33;
+  color: #847870;
 }
 
 .modal-search {
@@ -463,16 +481,23 @@ h2 a:focus {
   padding-bottom: 41px;
 }
 
+.adult {
+  margin-left: 41px;
+}
+
 .people-item,
 .input-people-item {
   display: flex;
 }
 
 .input-people-item {
-  margin-left: 41px;
+  margin-left: 27px;
   margin-top: -6px;
 }
 
+.adult {
+  margin-left: 41px;
+}
 .input-people-item input {
   text-align: center;
   width: 38px;
@@ -524,6 +549,10 @@ h2 a:focus {
   margin-top: 11px;
 }
 
+.button a:active {
+  background-color: #5496bd;
+  color: #87b6d1;
+}
 .main-footer {
   display: flex;
   flex-direction: row;
@@ -899,4 +928,8 @@ h2 a:focus {
 
 .button-brown {
   background-color: #766357;
+}
+
+{
+  background-color:
 }
