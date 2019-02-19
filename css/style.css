@@ -111,7 +111,7 @@ input[type="checkbox"].visually-hidden {
   background-repeat: no-repeat;
   text-align: center;
   margin: 0;
-  padding-top: 77px;
+  padding-top: 75px;
   width: 1200px;
   height: 506px;
   background-position: 0px -83px;
@@ -160,7 +160,7 @@ h2 a:active {
   font-size: 21px;
   line-height: 26px;
   margin: 0;
-  padding-right: 380px;
+  padding-right: 379px;
   padding-left: 380px;
   padding-top: 60px;
   padding-bottom: 29px;
@@ -172,8 +172,8 @@ h2 a:active {
   font-weight: 400;
   margin: 0;
   padding-bottom: 52px;
-  padding-left: 355px;
-  padding-right: 356px;
+  padding-left: 354px;
+  padding-right: 354px;
 }
 
 .reason-block {
@@ -199,7 +199,7 @@ h2 a:active {
   font-size: 21px;
   line-height: 21px;
   margin: 0;
-  padding-top: 45px;
+  padding-top: 46px;
   padding-left: 120px;
   padding-right: 120px;
   padding-bottom: 24px;
@@ -232,10 +232,10 @@ h2 a:active {
 
 .reason-item p {
   margin: 0;
-  padding-top: 21px;
-  padding-left: 68px;
-  padding-right: 69px;
-  padding-bottom: 60px;
+  padding-top: 22px;
+  padding-left: 64px;
+  padding-right: 67px;
+  padding-bottom: 59px;
 }
 
 .reason-item p,
@@ -266,8 +266,8 @@ h2 a:active {
   font-size: 21px;
   line-height: 21px;
   margin: 0;
-  padding-bottom: 24px;
-  padding-top: 159px;
+  padding-bottom: 23px;
+  padding-top: 161px;
 }
 
 .house-ico {
@@ -275,7 +275,7 @@ h2 a:active {
   position: absolute;
   left: 50%;
   margin-left: -37.5px;
-  top: 59px;
+  top: 60px;
   width: 75px;
   height: 72px;
   background-image: url("../img/house.svg");
@@ -287,7 +287,7 @@ h2 a:active {
   content: "";
   position: absolute;
   left: 50%;
-  margin-left: -37.5px;
+  margin-left: -36.5px;
   top: 60px;
   width: 75px;
   height: 72px;
@@ -300,7 +300,7 @@ h2 a:active {
   position: absolute;
   left: 50%;
   margin-left: -31.5px;
-  top: 55px;
+  top: 56px;
   width: 75px;
   height: 76px;
   background-image: url("../img/souvenirs.svg");
@@ -340,7 +340,7 @@ h2 a:active {
   font-size: 30px;
   line-height: 36px;
   padding-top: 49px;
-  margin-bottom: 28px;
+  margin-bottom: 26px;
 }
 
 .search-block p {
@@ -348,7 +348,7 @@ h2 a:active {
   line-height: 21px;
 	font-weight: 400;
   margin-top: 0;
-  margin-bottom: 52px;
+  margin-bottom: 50px;
   padding-left: 138px;
   padding-right: 139px;
 }
@@ -360,14 +360,9 @@ h2 a:active {
 	color: #ffffff;
   margin-left: 315px;
   margin-right: 315px;
-  padding-top: 26px;
-  padding-bottom: 33px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #766357;
-}
-
-.search-block a:active {
-  background-color: #503e33;
-  color: #847870;
 }
 
 .modal-search {
@@ -398,7 +393,7 @@ h2 a:active {
 .date-of-departure {
   padding-top: 28px;
   padding-left: 3px;
-  margin-bottom: 37px;
+  margin-bottom: 38px;
 }
 
 .date-of-departure label,
@@ -410,8 +405,9 @@ h2 a:active {
 .date-of-arrival input {
   font-size: 14px;
   line-height: 26px;
+  padding-top: 3px;
   padding-left: 12px;
-  width: 346px;
+  width: 345px;
   height: 38px;
   background-color: #f2f2f2;
   border: 0;
@@ -491,7 +487,7 @@ h2 a:active {
 }
 
 .input-people-item input:hover {
-  
+
 }
 .button-minus {
   background-image: url("../img/minus.png");
@@ -539,6 +535,11 @@ h2 a:active {
 .button-brown:hover,
 .button-brown:focus {
   background-color: #604e43;
+}
+
+.search-block a:active {
+  background-color: #503e33;
+  color: #847870;
 }
 
 .button-brown:active {
