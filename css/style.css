@@ -688,19 +688,23 @@ h2 a:active {
   margin: 0;
   font-size: 16px;
   line-height: 21px;
-  padding-top: 31px;
-  padding-bottom: 31px;
+  padding-top: 26px;
+  padding-bottom: 24px;
 }
 
 .filter-sedona-item  {
-  max-width: 240px;
+  padding-right: 119px;
 }
 
 .checkboxes {
   position: relative;
   display: block;
-  padding-bottom: 36px;
+  padding-bottom: 25px;
   padding-left: 40px;
+}
+
+.checkboxes:last-child {
+  padding-bottom: 32px;
 }
 
 .checkboxes label {
@@ -729,15 +733,15 @@ h2 a:active {
 
 .price {
   width: 330px;
-  margin-right: 74px;
+  margin-right: 60px;
   color: #ffffff;
 }
 
 .price-title {
   font-size: 16px;
   line-height: 21px;
-  padding-top: 31px;
-  margin-bottom: 13px;
+  padding-top: 26px;
+  margin-bottom: 10px;
 }
 
 .price-item {
@@ -747,6 +751,7 @@ h2 a:active {
   margin-bottom: 20px;
   border: 2px solid #ffffff;
   border-radius: 2px;
+  width: 317px;
 }
 
 .price-item label {
@@ -765,7 +770,7 @@ h2 a:active {
 }
 
 .price-item input {
-  width: 69px;
+  width: 60px;
   color: inherit;
   font-size: 14px;
   line-height: 21px;
@@ -791,9 +796,9 @@ h2 a:active {
 
 .range-control-item {
   position: absolute;
-  top: -9px;
-  width: 4px;
-  height: 4px;
+  top: -10px;
+  width: 20px;
+  height: 22px;
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
@@ -808,6 +813,7 @@ h2 a:active {
 }
 
 .price-control .scale {
+  width: 317px;
   height: 2px;
   background: rgba(255, 255, 255, 0.3);
 }
@@ -821,21 +827,24 @@ h2 a:active {
 }
 
 .range-control-max {
-  left: 80%;
+  left: 77%;
 }
 
 .button-transparent {
   display: block;
-  margin: 0 auto;
-  padding: 6px 35px;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 21px;
   color: #ffffff;
   text-transform: uppercase;
   background: transparent;
   border: 2px solid #ffffff;
   border-radius: 2px;
   cursor: pointer;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 35px;
+  padding-left: 36px;
+  margin-left: 84px;
 }
 
 .button-transparent:hover {
