@@ -70,7 +70,7 @@ input[type="checkbox"].visually-hidden {
   margin-left: 72px;
   margin-right: 72px;
   padding: 0;
-  margin-top:auto;
+  margin-top: auto;
   margin-bottom: auto;
 }
 
@@ -335,7 +335,6 @@ h2 a:active {
   font-weight: 400;
 }
 
-
 .search-block {
   position: relative;
   display: flex;
@@ -356,7 +355,7 @@ h2 a:active {
 .search-block p {
   font-size: 14px;
   line-height: 21px;
-	font-weight: 400;
+  font-weight: 400;
   margin-top: 0;
   margin-bottom: 51px;
   padding-left: 138px;
@@ -367,7 +366,7 @@ h2 a:active {
   font-size: 21px;
   line-height: 26px;
   text-align: center;
-	color: #ffffff;
+  color: #ffffff;
   margin-left: 315px;
   margin-right: 315px;
   padding-top: 30px;
@@ -471,7 +470,7 @@ h2 a:active {
   justify-content: space-between;
   padding-left: 55px;
   padding-right: 55px;
-  padding-bottom: 41px;
+  padding-bottom: 43px;
 }
 
 .people-item,
@@ -495,9 +494,6 @@ h2 a:active {
   border: none;
   box-shadow: none;
   background-color: #f2f2f2;
-}
-
-.input-people-item input:hover {
 }
 
 .button-minus {
@@ -592,15 +588,16 @@ h2 a:active {
 
 .main-footer {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
   text-align: center;
   padding-top: 36px;
   padding-bottom: 36px;
+  padding-left: 132px;
+  padding-right: 87px;
   margin: 0;
 }
+
 .main-footer-index {
   position: relative;
   margin-top: -118px;
@@ -617,28 +614,27 @@ h2 a:active {
   line-height: 26px;
   text-align: center;
   margin: 0;
+  padding-right: 256px
 }
 
 .social {
   max-width: 400px;
   display: flex;
   justify-content: space-between;
-  width: 400px;
   padding: 0;
-  margin-right: 228px;
-  margin-left: 256px;
   margin-top: 0;
   margin-bottom: 0;
+  padding-right: 221px;
 }
 
 .social-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   width: 46px;
   height: 46px;
   background-color: #81b3d2;
+  margin-right: 5px;
 }
 
 .social-button:hover,
@@ -657,10 +653,8 @@ h2 a:active {
 .generated {
   max-width: 400px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 0;
-  width: 400px;
 }
 
 .generated a:hover path,
@@ -699,7 +693,7 @@ h2 a:active {
 }
 
 .filter-sedona-item  {
-  width: 240px;
+  max-width: 240px;
 }
 
 .checkboxes {
@@ -848,6 +842,7 @@ h2 a:active {
   color: #000000;
   background: #ffffff;
 }
+
 .sorting {
   display: flex;
   justify-content: flex-start;
@@ -944,7 +939,6 @@ h2 a:active {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-
 }
 
 .star {
@@ -966,8 +960,4 @@ h2 a:active {
 
 .button-brown {
   background-color: #766357;
-}
-
-{
-  background-color:
 }
