@@ -435,6 +435,7 @@ h2 a:active {
   background-color: #ffffff;
   border: 2px solid #e5e5e5;
 }
+
 .button-calendar {
   position: absolute;
   background-color: transparent;
@@ -450,6 +451,7 @@ h2 a:active {
 .button-calendar:focus path {
   fill: #000000;
 }
+
 .button-calendar:focus path{
   fill: #81b3d2;
 }
@@ -545,7 +547,6 @@ h2 a:active {
   display: inline-block;
   padding-top: 2px;
   padding-bottom: 2px;
-
 }
 
 .button:hover,
