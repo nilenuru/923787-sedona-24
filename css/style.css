@@ -720,6 +720,14 @@ h2 a:active {
   width: 27px;
   height: 23px;
 }
+.checkbox-disabled:checked:disabled + label::after {
+  background-image: url("../img/checkbox-on-disabled.svg");
+}
+
+
+.checkbox-disabled:disabled + label::after {
+  background-image: url("../img/checkbox-off-disabled.svg");
+}
 
 .filter-input-checkbox + label::after {
   content: "";
@@ -729,6 +737,7 @@ h2 a:active {
   left: -40px;
   width: 27px;
   height: 23px;
+  color: #6a6a6a;
 }
 
 .price {
@@ -797,7 +806,7 @@ h2 a:active {
 .range-control-item {
   position: absolute;
   top: -10px;
-  width: 20px;
+  width: 21px;
   height: 22px;
   background: #ababab;
   border: 8px solid #ffffff;
@@ -860,7 +869,9 @@ h2 a:active {
   font-weight: 400;
   line-height: 18px;
   padding-top: 31px;
-  padding-bottom: 33px;
+  padding-bottom: 30px;
+  padding-left: 72px;
+  padding-right: 72px;
   background-color: #ffffff;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -868,23 +879,24 @@ h2 a:active {
 .sorting h2 {
   font-size: 21px;
   line-height: 26px;
-  padding-left: 75px;
   margin: 0;
-  margin-right: 49px;
+  margin-right: 48px;
 }
 
 .sorting-item {
   display: flex;
   justify-content: space-between;
-  width: 290px;
+  width: 277px;
   margin: 0;
 }
 
 .sorting-arrow {
   display: flex;
-  justify-content: space-between;
-  padding-left: 502px;
-  margin-right: 70px;
+  padding-left: 505px;
+}
+
+.arrow-up {
+  padding-right: 12px;
 }
 
 .arrow-up:hover path,
@@ -909,10 +921,8 @@ h2 a:active {
   display: flex;
   justify-content: space-between;
   padding-left: 72px;
-  padding-right: 86px;
+  padding-right: 75px;
   border-bottom: 1px solid #e5e5e5;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .residence-info {
