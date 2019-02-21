@@ -445,6 +445,7 @@ h2 a:active {
   padding: 0;
   border: none;
   cursor: pointer;
+  outline: none;
 }
 
 .button-calendar:hover path,
