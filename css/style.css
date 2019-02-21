@@ -222,6 +222,7 @@ h2 a:active {
   padding-left: 48px;
   padding-right: 48px;
   margin: 0;
+  padding-bottom: 60px;
 }
 
 .reason-item {
@@ -542,6 +543,9 @@ h2 a:active {
   padding-right: 17px;
   background-color: #81b3d2;
   display: inline-block;
+  padding-top: 2px;
+  padding-bottom: 2px;
+
 }
 
 .button:hover,
@@ -890,6 +894,10 @@ h2 a:active {
   margin: 0;
 }
 
+.sorting-item a:hover {
+  border-bottom: 1px dotted #81b3d2;
+}
+
 .sorting-arrow {
   display: flex;
   padding-left: 505px;
@@ -900,8 +908,17 @@ h2 a:active {
 }
 
 .arrow-up:hover path,
-.arrow-up:focus path {
+.arrow-up:focus path,
+.arrow-down:hover path,
+.arrow-down:focus path {
   fill: #231f20;
+}
+
+.arrow-up:active path,
+.arrow-up:active path,
+.arrow-down:active path,
+.arrow-down:active path {
+  fill: #81b3d2;;
 }
 
 .residence-list {
@@ -914,6 +931,8 @@ h2 a:active {
 
 .residence-image img {
   display: block;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .residence-item {
@@ -921,7 +940,7 @@ h2 a:active {
   display: flex;
   justify-content: space-between;
   padding-left: 72px;
-  padding-right: 75px;
+  padding-right: 72px;
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -939,25 +958,32 @@ h2 a:active {
   font-size: 21px;
   line-height: 26px;
   margin: 0;
+  padding-top: 25px;
+  padding-bottom: 6px;
 }
 
 .residence-hotel {
-  display: inline-block;
-  padding-right: 30px;
-  padding-top: 17px;
+  padding-right: 36px;
+}
+
+.residence-motel {
+  padding-right: 61px;
+}
+
+.residence-apartment {
+  padding-right: 17px;
 }
 
 .rating {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 27px;
 }
 
 .rating-stars {
-  max-width: 90px;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  padding-bottom: 50px;
 }
 
 .star {
@@ -970,11 +996,16 @@ h2 a:active {
 }
 
 .rating-item {
-  padding-top: 52px;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  padding-right: 13px;
+  padding-left: 16px;
+  background-color: #f2f2f2;
+
 }
 
 .residence-buttons {
-  margin-top: 18px;
+  margin-top: 16px;
 }
 
 .button-brown {
