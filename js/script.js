@@ -13,7 +13,7 @@ date.focus();
 });
 
 form.addEventListener("submit", function (evt) {
-  if (date.value||name.value){
+  if (!date.value|| !name.value){
 evt.preventDefault();
 console.log("Нужно ввести логин и пароль");
   }
