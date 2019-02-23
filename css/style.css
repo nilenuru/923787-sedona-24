@@ -388,6 +388,11 @@ h2 a:active {
   background-color: #ffffff;
 }
 
+.modal-show {
+  display: none;
+}
+
+.modal-search
 .modal-search .button {
   font-size: 21px;
   line-height: 26px;
@@ -421,8 +426,8 @@ h2 a:active {
   height: 38px;
   background-color: #f2f2f2;
   border: 0;
-  font-weight: inherit;
-  text-transform: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .date-of-departure input:hover,
@@ -435,6 +440,7 @@ h2 a:active {
   background-color: #ffffff;
   border: 2px solid #e5e5e5;
 }
+
 .button-calendar {
   position: absolute;
   background-color: transparent;
@@ -450,6 +456,7 @@ h2 a:active {
 .button-calendar:focus path {
   fill: #000000;
 }
+
 .button-calendar:focus path{
   fill: #81b3d2;
 }
@@ -479,6 +486,27 @@ h2 a:active {
   display: flex;
 }
 
+.date-of-arrival input::-webkit-input-placeholder,
+.date-of-departure input::-webkit-input-placeholder,
+.input-people-item input::-webkit-input-placeholder {
+  color: #000000;
+}
+
+.date-of-arrival input:-ms-input-placeholder,
+.date-of-departure input:-ms-input-placeholder {
+  color: #000000;
+}
+
+.date-of-arrival input::-ms-input-placeholder,
+.date-of-departure input::-ms-input-placeholder {
+  color: #000000;
+}
+
+.date-of-arrival input:-moz-placeholder,
+.date-of-departure input:-moz-placeholder {
+  color: #000000;
+}
+
 .input-people-item {
   margin-left: 27px;
   margin-top: -6px;
@@ -495,6 +523,8 @@ h2 a:active {
   border: none;
   box-shadow: none;
   background-color: #f2f2f2;
+  color:#000000;
+  font-weight: 700;
 }
 
 .button-minus {
