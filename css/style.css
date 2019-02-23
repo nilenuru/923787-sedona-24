@@ -450,6 +450,7 @@ h2 a:active {
   padding: 0;
   border: none;
   cursor: pointer;
+  outline: none;
 }
 
 .button-calendar:hover path,
@@ -573,9 +574,9 @@ h2 a:active {
   padding-right: 17px;
   background-color: #81b3d2;
   display: inline-block;
+  vertical-align: middle;
   padding-top: 2px;
   padding-bottom: 2px;
-
 }
 
 .button:hover,
