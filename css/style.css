@@ -615,6 +615,10 @@ h2 a:active {
   padding-left: 194px;
   padding-right: 213px;
   margin-top: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
 }
 
 .maps img {
