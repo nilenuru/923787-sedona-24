@@ -638,7 +638,6 @@ h2 a:active {
 
 .modal-on {
     display: flex;
-    animation: form_opacity 0.7s;
 }
 .maps img {
   display: block;

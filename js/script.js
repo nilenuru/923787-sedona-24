@@ -27,3 +27,13 @@ form.addEventListener("submit", function(evt) {
     modal.classList.toggle("modal-error");
   }
 });
+
+window.addEventListener("keydown", function(event) {
+  if (event.keyCode === 27) {
+    if (modal.classList.contains("modal-on")) {
+      modal.classList.remove("modal-on");
+      modal.classList.add("modal-off");
+      modal.classList.add("search-form-error");
+    }
+  }
+});
