@@ -1,7 +1,7 @@
 var search = document.querySelector(".search-button");
 var modal = document.querySelector(".modal-search");
-var arrival = modal.querySelector("[name=arrival]")
-var departure = modal.querySelector("[name=departure]")
+var arrival = modal.querySelector("[name=arrival]");
+var departure = modal.querySelector("[name=departure]");
 var adult = modal.querySelector("[name=people-adult]");
 var childern = modal.querySelector("[name=people-childern]");
 var form = modal.querySelector("form");
@@ -15,7 +15,7 @@ search.addEventListener("click", function(evt) {
   } else {
     modal.classList.add("modal-on");
     modal.classList.remove("modal-off");
-  };
+  }
   arrival.focus();
 });
 
