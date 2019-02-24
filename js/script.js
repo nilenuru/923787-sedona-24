@@ -1,7 +1,9 @@
 var search = document.querySelector(".search-button");
 var modal = document.querySelector(".modal-search");
-var date = modal.querySelector("[name=date-name]")
-var name = modal.querySelector("[name=people-name]");
+var arrival = modal.querySelector("[name=arrival]")
+var departure = modal.querySelector("[name=departure]")
+var adult = modal.querySelector("[name=people-adult]");
+var childern = modal.querySelector("[name=people-childern]");
 var form = modal.querySelector("form");
 
 search.addEventListener("click", function(evt) {
@@ -14,12 +16,11 @@ search.addEventListener("click", function(evt) {
     modal.classList.add("modal-on");
     modal.classList.remove("modal-off");
   };
-
   date.focus();
 });
 
 form.addEventListener("submit", function(evt) {
-  if (!date.value || !name.value) {
+  if (!arrival.value ||!departure.value|| !adult.value || !childern.value) {
     evt.preventDefault();
     modal.classList.remove("modal-on");
     modal.offsetWidth = modal.offsetWidth;
