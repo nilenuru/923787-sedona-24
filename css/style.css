@@ -388,10 +388,6 @@ h2 a:active {
   background-color: #ffffff;
 }
 
-.modal-show {
-  display: none;
-}
-
 .modal-search .button {
   font-size: 21px;
   line-height: 26px;
@@ -620,6 +616,30 @@ h2 a:active {
   line-height: 26px;
 }
 
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
+.modal-error {
+  animation-name: shake;
+  animation-duration: 1s;
+}
+
+.modal-off {
+  display: none;
+}
+
+.modal-on {
+    display: flex;
+    animation: form_opacity 0.7s;
+}
 .maps img {
   display: block;
 }
