@@ -16,7 +16,7 @@ search.addEventListener("click", function(evt) {
     modal.classList.add("modal-on");
     modal.classList.remove("modal-off");
   };
-  date.focus();
+  arrival.focus();
 });
 
 form.addEventListener("submit", function(evt) {
