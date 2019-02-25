@@ -394,16 +394,28 @@ h2 a:active {
   color: #ffffff;
 }
 
-.date-of-arrival {
+.form-item{
   padding-top: 54px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding-right: 55px;
   padding-left: 55px;
+
+}
+
+.date-of-arrival {
+  display: flex;
+  align-items: center;
+
 }
 
 .date-of-departure {
+  display: flex;
+  align-items: center;
   padding-top: 28px;
-  padding-left: 3px;
-  margin-bottom: 38px;
+
+  margin-bottom: 38px;;
 }
 
 .date-of-departure label,
@@ -417,12 +429,18 @@ h2 a:active {
   line-height: 26px;
   padding-top: 3px;
   padding-left: 12px;
-  width: 345px;
+  width: 100%;
   height: 38px;
   background-color: #f2f2f2;
   border: 0;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.wrapper {
+  position: relative;
+  width: 345px;
+
 }
 
 .date-of-departure input:hover,
@@ -458,13 +476,13 @@ h2 a:active {
 }
 
 .date-of-arrival .button-calendar {
-  left: 483px;
-  top: 62px;
+  right: 8px;
+  top: 7px;
 }
 
 .date-of-departure .button-calendar {
-  left: 483px;
-  top: 129px;
+  right: 8px;
+  top: 7px;
 }
 
 .people-container {
@@ -472,8 +490,6 @@ h2 a:active {
   line-height: 26px;
   display: flex;
   justify-content: space-between;
-  padding-left: 55px;
-  padding-right: 55px;
   padding-bottom: 43px;
 }
 
@@ -557,6 +573,7 @@ h2 a:active {
   border: none;
   background-color: #f2f2f2;
   cursor: pointer;
+  vertical-align: middle;
 }
 
 .button {
@@ -627,17 +644,14 @@ h2 a:active {
     transform: translateX(10px);
   }
 }
+
 .modal-error {
   animation-name: shake;
   animation-duration: 1s;
 }
 
-.modal-off {
-  display: none;
-}
-
 .modal-on {
-    display: flex;
+    display: none;
 }
 .maps img {
   display: block;
