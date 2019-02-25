@@ -99,7 +99,7 @@ input[type="checkbox"].visually-hidden {
 }
 
 .site-navigation a,
-.residence h2 a,
+.residence-info-item h2,
 .sorting a {
   display: block;
   color: #000000;
@@ -148,15 +148,15 @@ input[type="checkbox"].visually-hidden {
 .main-footer a:focus,
 .sorting a:hover,
 .sorting a:focus,
-h2 a:hover,
-h2 a:focus {
+.residence-info-item a:hover,
+.residence-info-item a:focus {
   color: #81b3d2;
 }
 
 .site-navigation a:active,
 .main-footer a:active,
 .sorting a:active,
-h2 a:active {
+.residence-info-item a:active {
   color: #c7c7c7;
 }
 
@@ -395,13 +395,13 @@ h2 a:active {
 }
 
 .form-item{
-  padding-top: 54px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-top: 54px;
   padding-right: 55px;
   padding-left: 55px;
-
+  padding-bottom:
 }
 
 .date-of-arrival {
@@ -440,7 +440,6 @@ h2 a:active {
 .wrapper {
   position: relative;
   width: 345px;
-
 }
 
 .date-of-departure input:hover,
