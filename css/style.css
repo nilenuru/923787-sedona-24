@@ -99,7 +99,7 @@ input[type="checkbox"].visually-hidden {
 }
 
 .site-navigation a,
-.residence h2 a,
+.residence-name a,
 .sorting a {
   display: block;
   color: #000000;
@@ -147,19 +147,17 @@ input[type="checkbox"].visually-hidden {
 .site-navigation a:focus,
 .residence-button a:hover,
 .residence-button a:focus,
-.sorting a:hover,
-.sorting a:focus,
 .residence-name a:hover,
 .residence-name a:focus {
   color: #81b3d2;
 }
 
+
 .site-navigation a:active,
 .main-footer a:active,
 .residence-button:active,
-.sorting a:active,
 .residence-name a:active {
-  color: #c7c7c7;
+  color: #cacaca;
 }
 
 .preview {
@@ -741,6 +739,10 @@ input[type="checkbox"].visually-hidden {
   fill: #bdbbbc;
 }
 
+.curent a{
+  color: #756357;
+}
+
 .filter-sedona {
   display: flex;
   justify-content: space-between;
@@ -798,10 +800,10 @@ input[type="checkbox"].visually-hidden {
   width: 27px;
   height: 23px;
 }
+
 .checkbox-disabled:checked:disabled + label::after {
   background-image: url("../img/checkbox-on-disabled.svg");
 }
-
 
 .checkbox-disabled:disabled + label::after {
   background-image: url("../img/checkbox-off-disabled.svg");
@@ -816,6 +818,10 @@ input[type="checkbox"].visually-hidden {
   width: 27px;
   height: 23px;
   color: #6a6a6a;
+}
+
+.filter-input-checkbox:focus + label  {
+  outline: 2px solid #939598;
 }
 
 .price {
@@ -968,8 +974,25 @@ input[type="checkbox"].visually-hidden {
   margin: 0;
 }
 
-.sorting-item a:hover {
+.sorting-item a {
+  color: #cacaca;
   border-bottom: 1px dotted #81b3d2;
+}
+
+.active a {
+  color: #81b3d2;
+  border: none;
+}
+
+.sorting-item a:hover,
+.sorting-item a:focus {
+  color: #81b3d2;
+  border-bottom: 1px dotted #81b3d2;
+}
+
+.sorting-item a:active {
+  color: #000000;
+  border: none;
 }
 
 .sorting-arrow {
