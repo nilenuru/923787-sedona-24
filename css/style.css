@@ -119,6 +119,7 @@ input[type="checkbox"].visually-hidden {
   position: relative;
   background: url("../img/back-photo.png");
   background-repeat: no-repeat;
+  background-color: #1b1b1b;
   text-align: center;
   margin: 0;
   padding-top: 75px;
@@ -144,8 +145,8 @@ input[type="checkbox"].visually-hidden {
 
 .site-navigation a:hover,
 .site-navigation a:focus,
-.main-footer a:hover,
-.main-footer a:focus,
+.residence-button a:hover,
+.residence-button a:focus,
 .sorting a:hover,
 .sorting a:focus,
 .residence-name a:hover,
@@ -155,6 +156,7 @@ input[type="checkbox"].visually-hidden {
 
 .site-navigation a:active,
 .main-footer a:active,
+.residence-button:active,
 .sorting a:active,
 .residence-name a:active {
   color: #c7c7c7;
@@ -430,12 +432,14 @@ input[type="checkbox"].visually-hidden {
 }
 
 .date-of-departure input:hover,
-.date-of-arrival input:hover {
+.date-of-arrival input:hover,
+.input-people-item input:hover {
   background-color: #ebebeb;
 }
 
 .date-of-departure input:focus,
-.date-of-arrival input:focus {
+.date-of-arrival input:focus,
+.input-people-item input:focus {
   background-color: #ffffff;
   border: 2px solid #e5e5e5;
 }
@@ -491,17 +495,20 @@ input[type="checkbox"].visually-hidden {
 }
 
 .date-of-arrival input:-ms-input-placeholder,
-.date-of-departure input:-ms-input-placeholder {
+.date-of-departure input:-ms-input-placeholder,
+.input-people-item input:-ms-input-placeholder {
   color: #000000;
 }
 
 .date-of-arrival input::-ms-input-placeholder,
-.date-of-departure input::-ms-input-placeholder {
+.date-of-departure input::-ms-input-placeholder,
+.input-people-item input::-ms-input-placeholder {
   color: #000000;
 }
 
 .date-of-arrival input:-moz-placeholder,
-.date-of-departure input:-moz-placeholder {
+.date-of-departure input:-moz-placeholder,
+.input-people-item input:-moz-placeholder {
   color: #000000;
 }
 
@@ -521,7 +528,7 @@ input[type="checkbox"].visually-hidden {
   border: none;
   box-shadow: none;
   background-color: #f2f2f2;
-  color:#000000;
+  color: #000000;
   font-weight: 700;
 }
 
@@ -725,12 +732,12 @@ input[type="checkbox"].visually-hidden {
   padding: 0;
 }
 
-.generated a:hover path,
-.generated a:focus path {
-  fill: #81b3d2
+.generated:hover path,
+.generated:focus path {
+  fill: #81b3d2;
 }
 
-.generated a:active path {
+.generated:active path {
   fill: #bdbbbc;
 }
 
@@ -738,7 +745,10 @@ input[type="checkbox"].visually-hidden {
   display: flex;
   justify-content: space-between;
   color: #ffffff;
-  background: url("../img/filter-background.png") no-repeat 50%  ;
+  background: url("../img/filter-background.png");
+  background-color: #424f57;
+  background-repeat: no-repeat;
+  background-position: 50%
 }
 
 .filter-sedona-container {
