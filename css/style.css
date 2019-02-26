@@ -160,7 +160,6 @@ input[type="checkbox"].visually-hidden {
   color: #c7c7c7;
 }
 
-
 .preview {
   text-align: center;
   margin: 0;
@@ -307,6 +306,7 @@ input[type="checkbox"].visually-hidden {
   background-repeat: no-repeat;
   background-color: #ffffff;
 }
+
 .souvenirs-ico {
   content: "";
   position: absolute;
@@ -344,39 +344,37 @@ input[type="checkbox"].visually-hidden {
   font-size: 21px;
   line-height: 26px;
   text-align: center;
+  padding-left: 315px;
+  padding-right: 315px;
+  padding-top: 50px;
 }
 
 .search-block h2 {
   margin: 0;
   font-size: 30px;
   line-height: 36px;
-  padding-top: 49px;
-  margin-bottom: 26px;
+  padding-bottom: 31px;
 }
 
 .search-block p {
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 50px;
-  padding-left: 138px;
-  padding-right: 139px;
+  margin: 0;
+  padding-bottom: 49px;
 }
 
-.search-block a {
+.search-button  {
   font-size: 21px;
   line-height: 26px;
-  text-align: center;
   color: #ffffff;
-  margin-left: 315px;
-  margin-right: 315px;
+  margin: 0;
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #766357;
 }
 
-.modal-search {
+.modal-search  {
   position: absolute;
   height: 395px;
   top: 100%;
@@ -407,7 +405,6 @@ input[type="checkbox"].visually-hidden {
 .date-of-arrival {
   display: flex;
   align-items: center;
-
 }
 
 .date-of-departure {
