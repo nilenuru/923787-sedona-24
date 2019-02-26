@@ -344,16 +344,16 @@ input[type="checkbox"].visually-hidden {
   font-size: 21px;
   line-height: 26px;
   text-align: center;
+  padding-top: 50px;
   padding-left: 315px;
   padding-right: 315px;
-  padding-top: 50px;
 }
 
 .search-block h2 {
   margin: 0;
   font-size: 30px;
   line-height: 36px;
-  padding-bottom: 31px;
+  padding-bottom: 25px;
 }
 
 .search-block p {
@@ -361,17 +361,7 @@ input[type="checkbox"].visually-hidden {
   line-height: 21px;
   font-weight: 400;
   margin: 0;
-  padding-bottom: 49px;
-}
-
-.search-button  {
-  font-size: 21px;
-  line-height: 26px;
-  color: #ffffff;
-  margin: 0;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #766357;
+  padding-bottom: 51px;
 }
 
 .modal-search  {
@@ -397,9 +387,9 @@ input[type="checkbox"].visually-hidden {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-top: 55px;
-  padding-right: 54px;
-  padding-left: 55px;
+  padding-top: 54px;
+  padding-left: 57px;
+  padding-right: 55px;
 }
 
 .date-of-arrival {
@@ -411,19 +401,21 @@ input[type="checkbox"].visually-hidden {
   display: flex;
   align-items: center;
   padding-top: 28px;
-  margin-bottom: 38px;;
+  padding-bottom: 37px;;
 }
 
-.date-of-departure label,
 .date-of-arrival label {
-  margin-right: 21px;
+  padding-right: 21px;
+}
+.date-of-departure label {
+  padding-right: 17px;
 }
 
 .date-of-departure input,
 .date-of-arrival input {
   font-size: 14px;
   line-height: 26px;
-  padding-left: 12px;
+  padding-left: 14px;
   width: 100%;
   height: 38px;
   background-color: #f2f2f2;
@@ -470,13 +462,13 @@ input[type="checkbox"].visually-hidden {
 }
 
 .date-of-arrival .button-calendar {
-  right: 8px;
-  top: 7px;
+  right: 7px;
+  top: 8px;
 }
 
 .date-of-departure .button-calendar {
-  right: 8px;
-  top: 7px;
+  right: 7px;
+  top: 9px;
 }
 
 .people-container {
@@ -519,7 +511,7 @@ input[type="checkbox"].visually-hidden {
 }
 
 .adult {
-  margin-left: 41px;
+  padding-left: 12px;
 }
 
 .input-people-item input {
@@ -585,6 +577,16 @@ input[type="checkbox"].visually-hidden {
   padding-bottom: 2px;
 }
 
+.search-button  {
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-color: #766357;
+  margin: 0;
+}
+
 .button:hover,
 .button:focus {
   background-color: #669ec0;
@@ -614,10 +616,10 @@ input[type="checkbox"].visually-hidden {
 
 .button-find {
   text-transform: uppercase;
-  width: 460px;
+  width: auto;
   height: 57px;
   padding-top: 9px;
-  padding-bottom: 7px;
+  padding-bottom: 9px;
   padding-left: 194px;
   padding-right: 213px;
   margin-top: 11px;
@@ -625,6 +627,7 @@ input[type="checkbox"].visually-hidden {
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
+  border: none;
 }
 
 @keyframes shake {
@@ -665,7 +668,7 @@ input[type="checkbox"].visually-hidden {
 
 .main-footer-index {
   position: relative;
-  margin-top: -118px;
+  margin-top: -122px;
   background-color: rgba(255, 255, 255, 0.9);
 }
 
