@@ -687,40 +687,43 @@ input[type="checkbox"].visually-hidden {
   border: none;
 }
 
-@-webkit-keyframes on {
+@-webkit-keyframes on{
   0% {
     opacity:0;
-    -webkit-transform:  rotate(-90deg) ;
-            transform:  rotate(-90deg) ;
+    -webkit-transform:  translate(0px,-25px)  ;
+            transform:  translate(0px,-25px)  ;
   }
   100% {
     opacity:1;
-    -webkit-transform:  rotate(0deg) ;
-            transform:  rotate(0deg) ;
+    -webkit-transform:  translate(0px,0px)  ;
+            transform:  translate(0px,0px)  ;
   }
 }
 
-@keyframes on {
+@keyframes on{
   0% {
     opacity:0;
-    -webkit-transform:  rotate(-90deg) ;
-            transform:  rotate(-90deg) ;
+    -webkit-transform:  translate(0px,-25px)  ;
+            transform:  translate(0px,-25px)  ;
   }
   100% {
     opacity:1;
-    -webkit-transform:  rotate(0deg) ;
-            transform:  rotate(0deg) ;
+    -webkit-transform:  translate(0px,0px)  ;
+            transform:  translate(0px,0px)  ;
   }
 }
 
 .modal-on {
-  -webkit-animation: on linear 0.7s;
-          animation: on linear 0.7s;
+  display: block;
+  -webkit-animation: on ease 1s;
+          animation: on ease 1s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-transform-origin: 0% 100%;
-      -ms-transform-origin: 0% 100%;
-          transform-origin: 0% 100%;
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-animation-fill-mode:forwards;
+          animation-fill-mode:forwards;
 }
 
 @-webkit-keyframes error {
@@ -816,7 +819,6 @@ input[type="checkbox"].visually-hidden {
             transform:  rotate(0deg) scaleX(1.20) scaleY(1.20) ;
   }
 }
-
 
 .modal-error {
   -webkit-animation: error linear 1s;

@@ -24,9 +24,11 @@ search.addEventListener("click", function(evt) {
 form.addEventListener("submit", function(evt) {
   if (!arrival.value || !departure.value || !adult.value || !childern.value) {
     evt.preventDefault();
-    modal.classList.remove("modal-off");
+    modal.classList.remove("modal-error");
     modal.offsetWidth = modal.offsetWidth;
-    modal.classList.toggle("modal-error");
+    modal.classList.add("modal-error");
+  } else {
+    modal.classList.remove("modal-error");
   }
 });
 
