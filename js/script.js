@@ -35,7 +35,7 @@ window.addEventListener("keydown", function(event) {
     if (modal.classList.contains("modal-on")) {
       modal.classList.remove("modal-on");
       modal.classList.add("modal-off");
-      modal.classList.add("search-form-error");
+      modal.classList.add("modal-error");
     }
   }
 });
