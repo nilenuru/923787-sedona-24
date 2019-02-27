@@ -116,10 +116,10 @@ input[type="checkbox"].visually-hidden {
 }
 
 .intro {
+  background-color: #1b1b1b;
   position: relative;
   background: url("../img/back-photo.png");
   background-repeat: no-repeat;
-  background-color: #1b1b1b;
   text-align: center;
   margin: 0;
   padding-top: 75px;
@@ -151,7 +151,6 @@ input[type="checkbox"].visually-hidden {
 .residence-name a:focus {
   color: #81b3d2;
 }
-
 
 .site-navigation a:active,
 .main-footer a:active,
@@ -507,9 +506,14 @@ input[type="checkbox"].visually-hidden {
 .date-of-arrival input:-moz-placeholder,
 .date-of-departure input:-moz-placeholder,
 .input-people-item input:-moz-placeholder {
-  color: #000000;
+  color: black;
 }
 
+.date-of-arrival input::-moz-placeholder,
+.date-of-departure input::-moz-placeholder,
+.input-people-item input::-moz-placeholder {
+  color: black;
+}
 .input-people-item {
   margin-left: 27px;
   margin-top: -6px;
@@ -652,9 +656,14 @@ input[type="checkbox"].visually-hidden {
   animation-duration: 1s;
 }
 
-.modal-on {
+.modal-off {
     display: none;
 }
+
+.modal-on {
+  display: block;
+}
+
 .maps img {
   display: block;
 }
@@ -687,7 +696,7 @@ input[type="checkbox"].visually-hidden {
   line-height: 26px;
   text-align: center;
   margin: 0;
-  padding-right: 256px
+  padding-right: 256px;
 }
 
 .social {
@@ -750,7 +759,7 @@ input[type="checkbox"].visually-hidden {
   background: url("../img/filter-background.png");
   background-color: #424f57;
   background-repeat: no-repeat;
-  background-position: 50%
+  background-position: 50%;
 }
 
 .filter-sedona-container {
@@ -821,7 +830,7 @@ input[type="checkbox"].visually-hidden {
 }
 
 .filter-input-checkbox:focus + label  {
-  outline: 2px solid #939598;
+ outline: -webkit-focus-ring-color auto 5px;
 }
 
 .price {
@@ -1098,7 +1107,6 @@ input[type="checkbox"].visually-hidden {
   padding-right: 13px;
   padding-left: 16px;
   background-color: #f2f2f2;
-
 }
 
 .residence-buttons {
