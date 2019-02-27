@@ -639,7 +639,6 @@ input[type="checkbox"].visually-hidden {
   border: none;
 }
 
-
 @keyframes on {
   0% {
     opacity:0;
