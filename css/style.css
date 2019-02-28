@@ -441,7 +441,7 @@ input[type="checkbox"].visually-hidden {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 28px;
-  padding-bottom: 37px;;
+  padding-bottom: 37px;
 }
 
 .date-of-arrival label {
@@ -462,6 +462,7 @@ input[type="checkbox"].visually-hidden {
   border: 0;
   font-weight: 700;
   text-transform: uppercase;
+
 }
 
 .wrapper {
@@ -473,12 +474,14 @@ input[type="checkbox"].visually-hidden {
 .date-of-arrival input:hover,
 .input-people-item input:hover {
   background-color: #ebebeb;
+  cursor: pointer;
 }
 
 .date-of-departure input:focus,
 .date-of-arrival input:focus,
 .input-people-item input:focus {
   background-color: #ffffff;
+  outline: 2px solid #e5e5e5;
 }
 
 .button-calendar {
@@ -560,6 +563,7 @@ input[type="checkbox"].visually-hidden {
 .input-people-item input::-moz-placeholder {
   color: black;
 }
+
 .input-people-item {
   margin-left: 27px;
   margin-top: -6px;
