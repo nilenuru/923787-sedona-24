@@ -479,7 +479,6 @@ input[type="checkbox"].visually-hidden {
 .date-of-arrival input:focus,
 .input-people-item input:focus {
   background-color: #ffffff;
-  border: 2px solid #e5e5e5;
 }
 
 .button-calendar {
