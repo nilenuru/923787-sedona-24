@@ -501,7 +501,7 @@ input[type="checkbox"].visually-hidden {
   fill: #000000;
 }
 
-.button-calendar:focus path{
+.button-calendar:focus path {
   fill: #81b3d2;
 }
 
@@ -685,7 +685,7 @@ input[type="checkbox"].visually-hidden {
   border: none;
 }
 
-@-webkit-keyframes on{
+@-webkit-keyframes on {
   0% {
     opacity:0;
     -webkit-transform:  translate(0px,-25px)  ;
@@ -698,7 +698,7 @@ input[type="checkbox"].visually-hidden {
   }
 }
 
-@keyframes on{
+@keyframes on {
   0% {
     opacity:0;
     -webkit-transform:  translate(0px,-25px)  ;
@@ -1021,7 +1021,7 @@ input[type="checkbox"].visually-hidden {
   color: #6a6a6a;
 }
 
-.filter-input-checkbox:focus + label{
+.filter-input-checkbox:focus + label {
  outline: -webkit-focus-ring-color auto 5px;
  outline:-moz-outline-radius 5px;
 }
