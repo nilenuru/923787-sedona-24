@@ -552,16 +552,11 @@ input[type="checkbox"].visually-hidden {
   color: #000000;
 }
 
-.date-of-arrival input:-moz-placeholder,
-.date-of-departure input:-moz-placeholder,
-.input-people-item input:-moz-placeholder {
-  color: black;
-}
-
 .date-of-arrival input::-moz-placeholder,
 .date-of-departure input::-moz-placeholder,
 .input-people-item input::-moz-placeholder {
   color: black;
+  opacity: 1;
 }
 
 .input-people-item {
