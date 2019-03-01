@@ -829,7 +829,7 @@ input[type="checkbox"].visually-hidden {
 }
 
 .modal-off {
-    display: none;
+  display: none;
 }
 
 .maps img {
@@ -845,16 +845,16 @@ input[type="checkbox"].visually-hidden {
           align-items: center;
   background-color: #ffffff;
   text-align: center;
-  padding-top: 36px;
-  padding-bottom: 36px;
-  padding-left: 132px;
-  padding-right: 87px;
+  padding-top: 34px;
+  padding-bottom: 39px;
+  padding-left: 134px;
+  padding-right: 75px;
   margin: 0;
 }
 
 .main-footer-index {
   position: relative;
-  margin-top: -122px;
+  margin-top: -125px;
   background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -868,7 +868,7 @@ input[type="checkbox"].visually-hidden {
   line-height: 26px;
   text-align: center;
   margin: 0;
-  padding-right: 256px;
+  padding-right: 255px;
 }
 
 .social {
@@ -898,7 +898,7 @@ input[type="checkbox"].visually-hidden {
   width: 46px;
   height: 46px;
   background-color: #81b3d2;
-  margin-right: 5px;
+  margin-right: 6px;
 }
 
 .social-button:hover,
@@ -915,6 +915,9 @@ input[type="checkbox"].visually-hidden {
 }
 
 .generated {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
   max-width: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -934,6 +937,9 @@ input[type="checkbox"].visually-hidden {
   fill: #bdbbbc;
 }
 
+.generated-a {
+  padding-top: 4px;
+}
 .curent a {
   color: #756357;
 }
