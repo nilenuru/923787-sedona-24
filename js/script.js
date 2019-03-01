@@ -27,8 +27,6 @@ form.addEventListener("submit", function(evt) {
     modal.classList.remove("modal-error");
     modal.offsetWidth = modal.offsetWidth;
     modal.classList.add("modal-error");
-  } else {
-    modal.classList.remove("modal-error");
   }
 });
 
