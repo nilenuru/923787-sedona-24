@@ -447,6 +447,7 @@ input[type="checkbox"].visually-hidden {
 .date-of-arrival label {
   padding-right: 21px;
 }
+
 .date-of-departure label {
   padding-right: 17px;
 }
@@ -462,7 +463,6 @@ input[type="checkbox"].visually-hidden {
   border: 0;
   font-weight: 700;
   text-transform: uppercase;
-
 }
 
 .wrapper {
@@ -934,7 +934,7 @@ input[type="checkbox"].visually-hidden {
   fill: #bdbbbc;
 }
 
-.curent a{
+.curent a {
   color: #756357;
 }
 
