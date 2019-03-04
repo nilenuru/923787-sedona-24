@@ -96,15 +96,17 @@ input[type="checkbox"].visually-hidden {
           box-sizing: border-box;
   padding-top: 16px;
   padding-bottom: 16px;
+  max-width: 240px;
 }
 
-.site-navigation ul:nth-child(1),
-.site-navigation ul:nth-child(2) {
+
+.site-navigation li:nth-child(1),
+.site-navigation li:nth-child(2) {
   text-align: left;
 }
 
-.site-navigation ul:nth-child(3),
-.site-navigation ul:nth-child(4) {
+.site-navigation li:nth-child(3),
+.site-navigation li:nth-child(4) {
   text-align: right;
 }
 
@@ -199,6 +201,7 @@ input[type="checkbox"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -208,13 +211,13 @@ input[type="checkbox"].visually-hidden {
 }
 
 .reason-info {
-  width: 400px;
+  max-width: 400px;
   text-align: center;
   color: #ffffff;
 }
 
 .reason-block img {
-  width: 800px;
+  max-width: 800px;
   display: block;
 }
 
@@ -240,7 +243,7 @@ input[type="checkbox"].visually-hidden {
 }
 
 .reason-item {
-  width: 400px;
+  max-width: 400px;
   text-align: center;
   background-color: #eeeeee;
 }
@@ -277,6 +280,7 @@ input[type="checkbox"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -289,7 +293,7 @@ input[type="checkbox"].visually-hidden {
 .advantages-item {
   position: relative;
   text-align: center;
-  width: 400px;
+  max-width: 400px;
 }
 
 .advantages-item h3 {
@@ -300,7 +304,7 @@ input[type="checkbox"].visually-hidden {
   padding-top: 161px;
 }
 
-.house-ico {
+.house-ico::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -313,7 +317,7 @@ input[type="checkbox"].visually-hidden {
   background-color: #ffffff;
 }
 
-.food-ico {
+.food-ico::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -326,12 +330,12 @@ input[type="checkbox"].visually-hidden {
   background-color: #ffffff;
 }
 
-.souvenirs-ico {
+.souvenirs-ico::after {
   content: "";
   position: absolute;
   left: 50%;
   margin-left: -31.5px;
-  top: 56px;
+  top: 55px;
   width: 75px;
   height: 76px;
   background-image: url("../img/souvenirs.svg");
@@ -848,7 +852,6 @@ input[type="checkbox"].visually-hidden {
   padding-top: 34px;
   padding-bottom: 39px;
   padding-left: 134px;
-  padding-right: 75px;
   margin: 0;
 }
 
@@ -876,6 +879,7 @@ input[type="checkbox"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1160,6 +1164,7 @@ input[type="checkbox"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
