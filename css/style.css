@@ -55,6 +55,15 @@ input[type="checkbox"].visually-hidden {
           box-sizing: content-box;
 }
 
+.header-container {
+  width: 1056px;
+  margin: 0 auto;
+}
+
+.main-header {
+  background-color: #ffffff;
+}
+
 .site-navigation,
 .main-footer ul,
 .sorting ul,
@@ -63,42 +72,37 @@ input[type="checkbox"].visually-hidden {
 }
 
 .main-navigation {
+  width: 1056px;
+  margin: 0 auto;
   font-size: 14px;
   line-height: 26px;
   background-color: #ffffff;
-  margin: 0;
 }
 
 .site-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-left: 72px;
-  margin-right: 72px;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 0;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.left {
-  margin-right: 219px;
-  margin-left: -22px;
-  padding: 6px;
-  padding-left: 4px;
-  padding-right: 9px;
+  margin: 0;
+  padding-top: 14px;
+  padding-bottom: 16px;
 }
 
 .site-navigation li {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  max-width: 240px;
+  width: 200px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
+.site-navigation li:nth-child(2) {
+  margin-right: 131px;
+}
 
 .site-navigation li:nth-child(1),
 .site-navigation li:nth-child(2) {
@@ -169,6 +173,20 @@ input[type="checkbox"].visually-hidden {
 .residence-button:active,
 .residence-name a:active {
   color: #cacaca;
+}
+.preview,
+.advantages-block p,
+.reason-item p,
+.reason-item span,
+.search-block p,
+.residence-info-item span {
+  text-align: center;
+  color: #333333;
+}
+
+.rating-item  {
+  text-align: center;
+  color: #666666;
 }
 
 .preview {
@@ -365,6 +383,7 @@ input[type="checkbox"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -467,6 +486,7 @@ input[type="checkbox"].visually-hidden {
   border: 0;
   font-weight: 700;
   text-transform: uppercase;
+  text-align: left;
 }
 
 .wrapper {
@@ -844,6 +864,7 @@ input[type="checkbox"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -966,6 +987,7 @@ input[type="checkbox"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
@@ -1265,6 +1287,7 @@ input[type="checkbox"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
