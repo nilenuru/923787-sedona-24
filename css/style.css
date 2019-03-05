@@ -376,6 +376,7 @@ input[type="checkbox"].visually-hidden {
 
 .search-block {
   position: relative;
+  z-index: 5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -852,6 +853,19 @@ input[type="checkbox"].visually-hidden {
   display: none;
 }
 
+.modal-map iframe {
+  position: relative;
+  z-index: 2;
+  border: none;
+}
+
+.modal-map p {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  margin: 0;
+}
+
 .maps img {
   display: block;
 }
@@ -876,6 +890,7 @@ input[type="checkbox"].visually-hidden {
   position: relative;
   margin-top: -125px;
   background-color: rgba(255, 255, 255, 0.9);
+  z-index: 4;
 }
 
 .main-footer a {
