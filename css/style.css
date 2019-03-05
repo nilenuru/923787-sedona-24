@@ -55,11 +55,6 @@ input[type="checkbox"].visually-hidden {
           box-sizing: content-box;
 }
 
-.header-container {
-  width: 1056px;
-  margin: 0 auto;
-}
-
 .main-header {
   background-color: #ffffff;
 }
@@ -174,8 +169,9 @@ input[type="checkbox"].visually-hidden {
 .residence-name a:active {
   color: #cacaca;
 }
-.preview,
-.advantages-block p,
+
+.preview p,
+.advantages-item,
 .reason-item p,
 .reason-item span,
 .search-block p,
@@ -1215,11 +1211,12 @@ input[type="checkbox"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 277px;
+  min-width: 577px;
   margin: 0;
+}
+
+.sorting-item li {
+  padding-right: 33px;
 }
 
 .sorting-item a {
@@ -1247,7 +1244,7 @@ input[type="checkbox"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 505px;
+  padding-left: 205px;
 }
 
 .arrow-up {
