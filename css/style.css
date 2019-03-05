@@ -855,6 +855,7 @@ input[type="checkbox"].visually-hidden {
 .modal-off {
   display: none;
 }
+
 .modal-map {
   position: relative;
 }
@@ -891,7 +892,7 @@ input[type="checkbox"].visually-hidden {
   padding-bottom: 39px;
   padding-left: 134px;
   margin: 0;
-  z-index: 6;
+  z-index: 5;
 }
 
 .main-footer-index {
